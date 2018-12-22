@@ -32,7 +32,31 @@
     color: #fff;
 }
 
+.botonnavdes{
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #279dd6; /*color botón*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    font-size: 15px;
+    color: #fff;
+}
 
+
+
+
+.botonport{
+    padding: 12px; /*espacio alrededor texto*/
+    background-color: #c38dfe; /*color botón*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    font-size: 15px;
+    color: #fff;
+    
+}
 
 .equipo001 {
     color: #0089ec;
@@ -54,7 +78,7 @@
 
 
 .portadaindex{
-    background-color: #67d0ea;
+    background-color: #6488f5;
     
 }
 
@@ -18662,7 +18686,7 @@ a.custom-light-blue:hover {
 }
 
 .green-flat {
-    background-color: #c6d0de !important
+    background-color: #fff !important
 }
 
 .green-flat-text {
@@ -25013,7 +25037,7 @@ a.custom-grey:hover {
 }
 
 .grey {
-    background-color: #f1266a !important
+    background-color: #ef0078 !important
 }
 
 .grey-hover:hover {
