@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+    <title>Schooltec | Curso gratuito de Excel</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="og:title" content="Schooltec | Curso gratuito de Excel básico">
+    <meta name="description" content="Aprende ofimática con este curso gratuito de Excel">
+    <meta property="og:image" content="img/postcursoexcel.png" />
+    <link rel="stylesheet" media="all" href="css/stylos.css" />
+    <link rel="stylesheet" href="css/iconos/iconos.css">
+    <script src="js/main.js" data-turbolinks-track="true"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130190222-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-130190222-1');
+    </script>
+</head>
+
+<body>
+    <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
+        <div>
+            <nav>
+                <ul class='no-list collection main-nav'>
+                    <div class='collection-item no-padding-large user-nav' style='font-size:1.1em;'>
+                        <a class="grey-hover" href="index.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Inicio</li>
+                        </a>
+                        <a class="grey-hover" href="cursos.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Cursos</li>
+                        </a>
+                        <a href="talleres.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Talleres</li>
+                        </a>
+                        <a href="Blog.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
+                        </a>
+                        <a href="equipo.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Equipo</li>
+                        </a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <nav class='grey darken-4 fixed new-black-text text-lighten-3 z-depth-1' data-turbolinks-permanent='true' id='main-nav'>
+        <div class="row center-xs relative large-padding">
+            <div class=' main-container col-xs-12 col-sm-11 col-md-10' stlye=''>
+                <div class='box'>
+                    <button aria-label='toggle menu' class='tcon tcon-menu--xbutterfly absolute' id='open_user_data' style='left:1em;top:1.7em;' type='button'>
+                        <span aria-hidden='true' class='tcon-menu__lines'></span>
+                        <span class='tcon-visuallyhidden'></span>
+                    </button>
+                    <ul class='no-list row middle-xs'>
+                        <div class='col-xs-2 hidden-bg'></div>
+                        <div class='no-padding text-left col-xs-5 col-sm-2 col-md-4'>
+                            <div class='box'>
+                                <a href="index.html"><img height="45" src="img/logo.png" alt="Logotipo" /></a>
+                            </div>
+                        </div>
+                        <div class=' no-padding text-right col-xs-5 col-sm-9 col-md-8'>
+                            <div class='box'>
+                                <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
+                                    <a class="hidden-xs" href="cursos.html">
+                                        <li class='inline-block'>
+                                            <i class='icon-play'></i>
+                                            <p class='no-margin be-small'>Cursos</p>
+                                        </li>
+                                    </a>
+                                    <a class="hidden-xs" href="talleres.html">
+                                        <li class='inline-block'>
+                                            <i class='icon-file-text'></i>
+                                            <p class='no-margin be-small'>Talleres</p>
+                                        </li>
+                                    </a>
+                                    <a class="hidden-xs" href="blog.html">
+                                        <li class='inline-block'>
+                                            <i class="icon-book"></i>
+                                            <p class='no-margin be-small'>Blog</p>
+                                        </li>
+                                    </a>
+                                    <a class="open-searcher hidden-xs" href="equipo.html">
+                                        <li class='inline-block'>
+                                            <i class='icon-man-woman'></i>
+                                            <p class='no-margin be-small'>Equipo</p>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="body">
+        <header class='blue darken-2 white-text big-padding' style='padding-bottom:70px;'>
+            <div class="row center-xs text-left ">
+                <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                    <div class='box'>
+                        <div class='row middle-xs center-xs text-left top-space'>
+                            <div class=' col-xs-12 col-sm-6 col-md-8 col-lg-7'>
+                                <div class='box'>
+                                    <div class='video-container video_player'>
+                                        <div id='player'>
+                                            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/319220082?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='col-sm col-xs-12 col-lg-4'>
+                                <div class='box'>
+                                    <div class='row middle-xs be-medium top-space-xs'>
+                                        <div class='col-sm-2 hidden-xs'></div>
+                                        <div class='col-xs-2'>
+                                            <i class='icon-radio-checked'></i>
+                                        </div>
+                                        <div class='col-xs'>Nivel básico</div>
+                                    </div>
+                                    <div class='row middle-xs top-space be-medium top-space-xs'>
+                                        <div class='col-sm-2 hidden-xs'></div>
+                                        <div class='col-xs-2'>
+                                            <i class='icon-share2'></i>
+                                        </div>
+                                        <div class='col-xs'>
+                                            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fschooltec.github.io%2Fpe%2Fcursoexcel.html&layout=button&size=large&mobile_iframe=true&width=99&height=28&appId" width="99" height="28" style="border:none;overflow:hidden"
+                                                scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class='row middle-xs bottom-space top-space be-medium top-space-xs'>
+                                        <div class='col-sm-2 hidden-xs'></div>
+                                        <div class='col-xs-2'>
+                                            <i class='icon-share2'></i>
+                                        </div>
+                                        <div class='col-xs'>
+                                            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://schooltec.github.io/pe/cursoexcel.html" data-size="large">Tweet</a>
+                                            <script>
+                                                ! function(d, s, id) {
+                                                    var js, fjs = d.getElementsByTagName(s)[0],
+                                                        p = /^http:/.test(d.location) ? 'http' : 'https';
+                                                    if (!d.getElementById(id)) {
+                                                        js = d.createElement(s);
+                                                        js.id = id;
+                                                        js.src = p + '://platform.twitter.com/widgets.js';
+                                                        fjs.parentNode.insertBefore(js, fjs);
+                                                    }
+                                                }(document, 'script', 'twitter-wjs');
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class='row middle-xs top-30'>
+                                        <div class='col-sm-2 hidden-xs'></div>
+                                        <div class='col-xs-10'>
+                                            <center>
+                                                <a class="botoncurso" style="height: auto;padding:1em;" href="cursoexcelclase1.html"><color style="color:#fff;">Empezar curso</color></a>
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section style='margin-top:-35px'>
+            <div class="row center-xs text-left ">
+                <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9' style=''>
+                    <div class='box'>
+                        <div class='card'>
+                            <ul class='tabs be-medium be-normal-xs'>
+                                <li class='tab uppercase active'>
+                                    <a class='green-flat-text' href=" ">Curso de Excel básico</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <article class='card text-left'>
+                            <header class='border-bottom large-padding' style='border-color:#c2c0c0;'>
+                                <p class='upercase bold grey-text text-darken-2 no-margin be-medium normal-line-height'>Acerca del curso</p>
+                            </header>
+                            <section class='large-padding'>
+                                <p>Excel es un programa del tipo Hoja de Cálculo que permite realizar operaciones con números organizados en una cuadrícula. Es útil para realizar desde simples sumas hasta cálculos de préstamos hipotecarios y otros mucho más complejos. Excel es una hoja de cálculo integrada en Microsoft Office.</p>
+                            </section>
+                        </article>
+                        <article class='card text-left'>
+                            <header class='border-bottom large-padding' style='border-color:#acacac;'>
+                                <p class='upercase bold grey-text text-darken-2 no-margin be-medium normal-line-height'>Temario del curso</p>
+                            </header>
+                            <section class='large-padding'>
+                                <ul class='large-padding no-margin'>
+                                    <li class='top-space'>
+                                        <a href="cursoexcel.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>PRESENTACIÓN</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>03m 03s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase1.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>01) Introducción</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>03m 03s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase2.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>02) Formulas</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>19m 30s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase3.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>03) Gráficos</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>56m 30s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase4.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>04) Función SI</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>56m 30s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase5.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>05) Función SI anidada</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>62m 20s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase6.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>06) Función SI-Y-O</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>55m 41s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase7.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>07) Función SI-Y-O anidada</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>40m 30s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase8.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>08) Funciones básicas</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>77m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase9.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>09) Buscar en Excel</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>77m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase10.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>10) Formatos condicionales</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>07m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase11.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>11) Validación de datos</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>77m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase12.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>12) Filtros y tablas dinámicas</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>77m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase13.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>13) Seguridad en Excel</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>77m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase14.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>14) Suma y promedio SI</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>08m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase15.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>15) Consolidar datos</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>77m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase16.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>16) Tablas automáticas</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>13m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase17.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>17) Filtros avanzados</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>77m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class='top-space'>
+                                        <a href="cursoexcelclase18.html">
+                                            <div class='row slim middle-xs responsive-fluid'>
+                                                <div class='col-xs'>
+                                                    <div class='box'>18) Suma y conteo SI</div>
+                                                </div>
+                                                <div class='text-left hidden-xs col-xs-3'>
+                                                    <div class='box'>
+                                                        <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                        <span class=' '>77m 16s</span>
+                                                    </div>
+                                                </div>
+                                                <div class=' col-xs-1'>
+                                                    <div class='box'>
+                                                        <i class='icon-play'></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </article>
+                        <article class='card text-left top-space'>
+                            <header class='border-bottom large-padding' style='border-color:#d5d5d5;'>
+                                <p class='upercase bold grey-text text-darken-2 no-margin be-medium normal-line-height'>Notas del tutor</p>
+                            </header>
+                            <section class='large-padding'>
+                                <div class='paragraph'>Ninguna</div>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="top-30">
+            <footer class='footer grey darken-4 big-padding white-text'>
+                <div class="row center-xs text-left ">
+                    <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                        <div class='box'>
+                            <div class='row center-xs text-left'>
+                                <div class='last-xs first-md col-xs-6 col-sm-12 col-md-3 col-lg-2'>
+                                    <div class='box'>
+                                        <img width="150" src="img/favicon.png" alt="" />
+                                    </div>
+                                </div>
+                                <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                    <div class='box'>
+                                        <p class='uppercase green-flat-text'>Contenido</p>
+                                        <ul>
+                                            <li><a href="cursos.html">Cursos</a></li>
+                                            <li><a href="talleres.html">Talleres</a></li>
+                                            <li><a href="blog.html">blog</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                    <div class='box'>
+                                        <p class='uppercase green-flat-text'>Cursos</p>
+                                        <ul>
+                                            <li><a href="desarrolloweb.html">Web</a></li>
+                                            <li><a href="ofimatica.html">Ofimatica</a></li>
+                                            <li><a href="software.html">Software</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                    <div class='box'>
+                                        <p class='uppercase green-flat-text'>Nosotros</p>
+                                        <ul>
+                                            <li><a href="equipo.html">Equipo</a></li>
+                                            <li><a href="info.html">Info</a></li>
+                                            <li><a href="donar.html">Donar</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class='social col-xs-6 col-sm-3 col-md-6 col-lg-2'>
+                                    <div class='box'>
+                                        <p class='uppercase green-flat-text'>Redes sociales</p>
+                                        <a href="https://www.facebook.com/schooltec" target="_blank">
+                                            <img height="25" src="img/facebook.png" alt="Facebook" />
+                                        </a>
+                                        <a href="https://twitter.com/schooltecweb?lang=es" target="_blank">
+                                            <img height="25" src="img/twitter.png" alt="twitter" />
+                                        </a>
+                                        <a href="whatsapp-html" target="_blank">
+                                            <img height="25" src="img/whatsapp.png" alt="whatsapp" />
+                                        </a>
+                                        <a href="https://www.youtube.com/channel/UC2LVTIbvZFd8kcU-0B8qo3w?view_as=public" target="_blank">
+                                            <img height="25" src="img/youtube.png" alt="Youtube" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>
