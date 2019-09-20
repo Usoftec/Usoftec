@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: schooltec.net
-Token: 86bdd1009ed2d44ab8c0486b0b6208b60f5480e685cb6a515279d42d9ca13849

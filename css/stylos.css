@@ -1,4 +1,7 @@
-
+.anuncios{
+    text-align: inline;
+    text-align: center;
+}
 .botonblog{
     padding: 10px; /*espacio alrededor texto*/
     background-color: #3be677; /*color botón*/
@@ -76,9 +79,6 @@
     color: #fff;
 }
 
-
-
-}
 
 .equipo001 {
     color: #0089ec;
@@ -9538,7 +9538,6 @@ ul.tabs li.tab {
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-mask-image: -webkit-radial-gradient(circle, #fff 100%, #000 100%)
 }
 
 .waves-input-wrapper {
@@ -9559,7 +9558,6 @@ ul.tabs li.tab {
     height: 2.5em;
     line-height: 2.5em;
     border-radius: 50%;
-    -webkit-mask-image: none
 }
 
 .waves-block {
@@ -10189,7 +10187,6 @@ form p:last-child {
     -ms-transform: rotateZ(40deg);
     -o-transform: rotateZ(40deg);
     transform: rotateZ(40deg);
-    -webkit-backface-visibility: hidden;
     -webkit-transform-origin: 100% 100%;
     -moz-transform-origin: 100% 100%;
     -ms-transform-origin: 100% 100%;
@@ -10226,7 +10223,6 @@ form p:last-child {
     -ms-transform: rotateZ(40deg);
     -o-transform: rotateZ(40deg);
     transform: rotateZ(40deg);
-    -webkit-backface-visibility: hidden;
     -webkit-transform-origin: 100% 100%;
     -moz-transform-origin: 100% 100%;
     -ms-transform-origin: 100% 100%;
@@ -11295,7 +11291,6 @@ ul.side-nav.fixed .collapsible-body li.active a {
     -webkit-transition: background 0.15s ease-out, top 0s 0.15s;
     -moz-transition: background 0.15s ease-out, top 0s 0.15s;
     transition: background 0.15s ease-out, top 0s 0.15s;
-    -webkit-backface-visibility: hidden
 }
 
 .picker__frame {
@@ -11364,7 +11359,6 @@ ul.side-nav.fixed .collapsible-body li.active a {
 .picker--opened .picker__holder {
     top: 0;
     background: transparent;
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E000000,endColorstr=#1E000000)";
     zoom: 1;
     background: rgba(0, 0, 0, 0.32);
     -webkit-transition: background 0.15s ease-out;
@@ -11438,7 +11432,7 @@ ul.side-nav.fixed .collapsible-body li.active a {
 .picker__select--month.browser-default {
     display: inline;
     background-color: #FFFFFF;
-    width: 40%
+    width: 40%;
 }
 
 .picker__select--year.browser-default {
@@ -17572,7 +17566,7 @@ pre .line-highlight {
     float: right;
     -moz-transform-origin: top right;
     -ms-transform-origin: top right;
-    -webkit-transform-origin: top right
+    -webkit-transform-origin: top right;
 }
 
 .load-bar-base {
@@ -20871,7 +20865,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: #85b6f1 !important
+    background-color: #aecff2 !important
 }
 
 
@@ -28841,7 +28835,6 @@ table.schedule .item {
 
 .icon {
     font-family: 'codepicnic' !important;
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
