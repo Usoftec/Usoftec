@@ -1,6 +1,6 @@
 .botonschooltec{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #74f185; /*color botón*/
+    background-color: #3ff156; /*color botón*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -12,14 +12,14 @@
 
 .botonschooltecalumnos{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #836dff; /*color botón*/
+    background-color: #fcaac5; /*color botón*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     border-radius: 20px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 2px solid #0319c5;
+    border: 2px solid #fc5a75;
 }
 
 .botonvideo{
@@ -25491,7 +25491,7 @@ a.custom-grey:hover {
 }
 
 .verano-header {
-    background-image: url("img/portada.png");
+    background-image: url("img/portada.svg");
     background-size: cover;
     background-position: center;
     height: 90vh
