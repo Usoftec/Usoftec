@@ -7,7 +7,7 @@
     border-radius: 30px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 2px solid #07c24e;
+    border: 1px solid #07c24e;
 }
 
 .botonschooltecalumnos{
@@ -16,22 +16,22 @@
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 20px; /*bordes redondos*/
+    border-radius: 30px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 2px solid #fc5a75;
+    border: 1px solid #fc5a75;
 }
 
 .botonvideo{
     padding: 15px; /*espacio alrededor texto*/
-    background-color:#836dff; /*color botón*/
+    background-color: #3ddc84; /*color botón*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 20px; /*bordes redondos*/
+    border-radius: 30px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 2px solid #0319c5;
+    border: 1px solid #07c24e;
 }
 
 .imagendecursos{
@@ -20822,7 +20822,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: #45bdf5 !important
+    background-color: #1cb0f6 !important
 }
 
 
@@ -25011,7 +25011,7 @@ a.custom-grey:hover {
 }
 
 .grey {
-    background-color: #FF797F !important
+    background-color: #fc5a75 !important
 }
 
 .grey-hover:hover {
