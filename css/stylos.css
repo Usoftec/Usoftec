@@ -7,7 +7,7 @@
     border-radius: 30px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 1px solid #07c24e;
+    border: 2px solid #07c24e;
 }
 
 .botonschooltecalumnos{
@@ -16,22 +16,22 @@
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 30px; /*bordes redondos*/
+    border-radius: 20px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 1px solid #fc5a75;
+    border: 2px solid #fc5a75;
 }
 
 .botonvideo{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #3ddc84; /*color botón*/
+    background-color:#836dff; /*color botón*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 30px; /*bordes redondos*/
+    border-radius: 20px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: 1px solid #07c24e;
+    border: 2px solid #0319c5;
 }
 
 .imagendecursos{
@@ -59,7 +59,7 @@
 }
 
 .portadaindex{
-    background-color: #1cb0f6;
+    background-color: #45bdf5;
     
 }
 
@@ -8474,7 +8474,7 @@ html {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: rgba(0, 0, 0, 0.87)
+    color: rgba(255, 255, 255, 0.87)
 }
 
 @media only screen and (min-width: 0) {
@@ -16638,7 +16638,7 @@ a:hover {
 }
 
 .big-padding-top {
-    padding-top: 2em
+    padding-top: 1em;
 }
 
 .big-padding {
@@ -16668,7 +16668,7 @@ a:hover {
 }
 
 .top-30 {
-    margin-top: 30px
+    margin-top: 0.5px
 }
 
 .bottom-30 {
@@ -20822,7 +20822,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: #1cb0f6 !important
+    background-color: #45bdf5 !important
 }
 
 
@@ -25011,7 +25011,7 @@ a.custom-grey:hover {
 }
 
 .grey {
-    background-color: #fc5a75 !important
+    background-color: #75e900 !important
 }
 
 .grey-hover:hover {
@@ -25076,7 +25076,7 @@ a.custom-grey:hover {
 }
 
 .grey-text.text-darken-2 {
-    color: #616161 !important
+    color: #43d9d3 !important
 }
 
 .grey-text-hover.text-darken-2 {
