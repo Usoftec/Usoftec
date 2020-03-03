@@ -10,30 +10,6 @@
     border: 2px solid #07c24e;
 }
 
-.botonschooltecalumnos{
-    padding: 15px; /*espacio alrededor texto*/
-    background-color: #fcaac5; /*color botón*/
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 20px; /*bordes redondos*/
-    font-size: 15px;
-    color: #fff;
-    border: 2px solid #fc5a75;
-}
-
-.botonvideo{
-    padding: 15px; /*espacio alrededor texto*/
-    background-color:#836dff; /*color botón*/
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 20px; /*bordes redondos*/
-    font-size: 15px;
-    color: #fff;
-    border: 2px solid #0319c5;
-}
-
 .imagendecursos{
     height: 160px;
     width: 100%;
