@@ -1,174 +1,108 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <title>Schooltec | Ingresa o registrate</title>
-    <!--Ceo y posicionamiento web-->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="author" content="Schooltec"/>
-    <meta name="title" content="Schooltec" >
-    <meta name="description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
-    <meta name="disribution" content="global"/>
-    <meta name="copyright" content="Copyright 2020 by Schooltec" />
-    <meta name="theme-color" content="#e9e9e9"/>
-    <!--###########################-->
-    <!--Targetas de Twitter-->
-    <meta name="twitter:title" content="Schooltec"/>
-    <meta name="twitter:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
-    <meta name="twitter:card" content="photo"/>
-    <meta name="twitter:site" content="@schooltecnet"/>
-    <meta name="twitter:url" content="https://schooltec.net" />
-    <meta name="twitter:image" content="https://schooltec.net/img/logoschooltec.png"/>
-    <!--###################-->
-    <!-- Open Graph data Facebook -->
-    <meta property="og:title" content="Schooltec"/>
-    <meta property="og:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
-    <meta property="og:type" content="Article" />
-    <meta property="og:site_name" content="Schooltec"/>
-    <meta property="og:url" content="https://schooltec.net/" />
-    <meta property="og:image" content="https://schooltec.net/img/logoschooltec.png"/>
-    <!--###########################--> 
-    <!--Fuentes, estylos, javascript y favicon-->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
-    <link rel="stylesheet" media="all" href="css/stylos.css"/>
-    <link rel="stylesheet" href="css/iconos/iconos.css"/>
-    <link rel="canonical" href="https://schooltec.net"/>
-    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"/>
-    <script src="js/main.js" data-turbolinks-track="true"></script>
-    <!--#######################################-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170661233-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-170661233-1');
-    </script>
-    <!--#################################################-->
-</head>
-<body>
-    <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
-        <div>
-            <nav>
-                <ul class='no-list collection main-nav'>
-                    <div class='collection-item no-padding-large user-nav' style='font-size:1.1em;'>
-                        <a class="grey-hover" href="index.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Inicio</li>
-                        </a>
-                        <a class="grey-hover" href="cursos.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Cursos</li>
-                        </a>
-                        <a href="talleres.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Talleres</li>
-                        </a>
-                        <a href="blog.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
-                        </a>
-                        <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7KMH7482ZLU6&source=url">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Donate</li>
-                        </a>
-                    </div>
-                </ul>
-            </nav>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Ingresa o registrate</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Ingresar</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Usuario" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Contraseña" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+            <p class="social-text">Ingresa con tu red social favorita</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Registrate</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Usuario" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Contraseña" />
+            </div>
+            <input type="submit" class="btn" value="Registrate" />
+            <p class="social-text">Registrate con tu red social favorita</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
         </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>¿Es usted nuevo?</h3>
+            <p>
+              Registrate y obten acceso a cuarsos y material educativo gratuito
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>¿Ya estas registrado?</h3>
+            <p>
+              Ingresa a Shooltec y sigue aprendiendo
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="img/register.svg" class="image" alt="" />
+        </div>
+      </div>
     </div>
-    <nav class='grey darken-4 fixed new-black-text text-lighten-3 z-depth-1' data-turbolinks-permanent='true' id='main-nav'>
-        <div class="row center-xs relative large-padding">
-            <div class=' main-container col-xs-12 col-sm-11 col-md-10' stlye=''>
-                <div class='box'>
-                    <button aria-label='toggle menu' class='tcon tcon-menu--xbutterfly absolute' id='open_user_data' style='left:1em;top:1.7em;' type='button'>
-                        <span aria-hidden='true' class='tcon-menu__lines'></span>
-                        <span class='tcon-visuallyhidden'></span>
-                    </button>
-                    <ul class='no-list row middle-xs'>
-                        <div class='col-xs-2 hidden-bg'></div>
-                        <div class='no-padding text-left col-xs-5 col-sm-2 col-md-4'>
-                            <div class='box'>
-                                <a href="index.html"><img height="45" src="img/favicon.png" alt="Logotipo" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class=' no-padding text-right col-xs-5                                                                                                                                                                                                              col-sm-9 col-md-8'>
-                            <div class='box'>
-                                <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
- 
-                                    <a class="hidden-xs" href="cursos.html">
-                                        <li class='inline-block'>
-                                            <i class='icon-play'></i>
-                                            <p class='no-margin be-small'>Cursos</p>
-                                        </li>
-                                    </a>
-                                    <a class="hidden-xs" href="talleres.html">
-                                        <li class='inline-block'>
-                                            <i class='icon-file-text'></i>
-                                            <p class='no-margin be-small'>Talleres</p>
-                                        </li>
-                                    </a>
-                                    <a class="hidden-xs" href="blog.html">
-                                        <li class='inline-block'>
-                                            <i class="icon-book"></i>
-                                            <p class='no-margin be-small'>Blog</p>
-                                        </li>
-                                    </a>
-                                    <a class="hidden-xs" href="login.html">
-                                        <li class='inline-block'>
-                                            <i class="icon-user-plus"></i>
-                                            <p class='no-margin be-small'>Ingresar</p>
-                                        </li>
-                                    </a>
-                                </ul>
-                            </div>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <div class="hero">
-        <div class="form-box">
-            <div class="button-box">
-                <div id="btn"></div>
-                <button type="button" class="toggle-btn" onclick="login()">Ingresa</button>
-                <button type="button" class="toggle-btn" onclick="register()">Registrate</button>
-            </div>
-            <div class="social-icons">
-                <img src="img/twitter.png" alt="">
-                <img src="img/facebook.png" alt="">
-                <img src="img/instagram.png" alt="">
-            </div>
-            <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="Usuario" required>
-                <input type="text" class="input-field" placeholder="Contraseña" required>
-                <button type="submit" class="submit-btn">Ingrsar</button>
-            </form>
-            <form id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="Usuario" required>
-                <input type="email" class="input-field" placeholder="Email" required>
-                <input type="text" class="input-field" placeholder="Contraseña" required>
-                <button type="submit" class="submit-btn">Registrate</button>
-            </form>
-        </div>
-    </div>
-    <script>
-        var x = document.getElementById("login");
-        var y = document.getElementById("register");
-        var z = document.getElementById("btn");
 
-        function register() {
-            x.style.left = "-400px";
-            y.style.left = "22px";
-            z.style.left = "110px";
-        }
-
-        function login() {
-            x.style.left = "22px";
-            y.style.left = "450px";
-            z.style.left = "0";
-        }
-    </script>
-    
-    
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>

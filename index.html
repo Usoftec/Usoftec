@@ -53,28 +53,30 @@
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>
-        window.fbAsyncInit = function() {
+      window.fbAsyncInit = function() {
         FB.init({
-        xfbml            : true,
-        version          : 'v7.0'
+          xfbml            : true,
+          version          : 'v7.0'
         });
-        };
+      };
 
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat"
         attribution=setup_tool
         page_id="1649351191998823"
-        theme_color="#00e676">
+        theme_color="#5995fd"
+        logged_in_greeting="Hola, ¿en que te podemos ayudar?"
+        logged_out_greeting="Hola, ¿en que te podemos ayudar?">
     </div>
+    
     <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
         <div>
             <nav>
@@ -92,8 +94,8 @@
                         <a href="blog.html">
                             <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
                         </a>
-                        <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7KMH7482ZLU6&source=url">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Donate</li>
+                        <a href="login.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Ingresar</li>
                         </a>
                     </div>
                 </ul>
@@ -119,6 +121,12 @@
                         <div class=' no-padding text-right col-xs-5                                                                                                                                                                                                              col-sm-9 col-md-8'>
                             <div class='box'>
                                 <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
+                                    <a class="hidden-xs" href="index.html">
+                                        <li class='inline-block'>
+                                            <i class='icon-home'></i>
+                                            <p class='no-margin be-small'>Inicio</p>
+                                        </li>
+                                    </a>
                                     <a class="hidden-xs" href="cursos.html">
                                         <li class='inline-block'>
                                             <i class='icon-play'></i>
@@ -137,10 +145,10 @@
                                             <p class='no-margin be-small'>Blog</p>
                                         </li>
                                     </a>
-                                    <a class="hidden-xs" target="_blank"href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7KMH7482ZLU6&source=url">
+                                    <a class="hidden-xs" href="login.html">
                                         <li class='inline-block'>
-                                            <i class="icon-gift"></i>
-                                            <p class='no-margin be-small'>Donate</p>
+                                            <i class="icon-user-plus"></i>
+                                            <p class='no-margin be-small'>Ingresar</p>
                                         </li>
                                     </a>
                                 </ul>
@@ -155,21 +163,14 @@
         <div class="portadaindex">
             <header class='relative verano-header'>
                 <div class='absolute text-center white-text bold full-width' style='top:1em;'>
+                    <p class="portada__titulo">Schooltec</p>
+                    <p class="portada__descripsion">Aprende software de ingeniería, ofimática y diseño gráfico</p>
+                    <br>
+                    <a class="botonschooltec02" href="login.html">Ingresa o registrate</a>
                     <br>
                     <br>
                     <br>
-                    <br>
-                    <br>
-                    <br>
-                    <p class='be-big no-margin slim'><span class='bold'><color style="color: #757c86; font-weight: bold; font-size: 50px; font-family: 'Bitter', serif;">Schooltec</color></span></p>
-                    <p class='no-margin slim'><color style="color: #757c86; font-weight: bold; font-size: 30px; font-family: 'Bitter', serif;">Escuela online de formación en manejo de Software</color></p>
-                    <br>
-                    <center>
-                        <a class="botonschooltec" href="cursos.html">
-                            <color style="color: #ffffff; font-weight: bold;">Ver cursos</color>
-                        </a>
-                    </center>
-                </div>
+                    <a class="botonschooltec01" href="cursos.html">Buscar cursos</a>
             </header>
         </div>
         <section class='top-30'>
