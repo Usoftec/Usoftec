@@ -1,184 +1,299 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <title>Schooltec</title>
-    <!--Ceo y posicionamiento web-->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="author" content="Schooltec"/>
-    <meta name="title" content="Schooltec" >
-    <meta name="description" content="Aprende software de ingeniería, ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
-    <meta name="disribution" content="global"/>
-    <meta name="copyright" content="Copyright 2020 by Schooltec" />
-    <meta name="theme-color" content="#e9e9e9"/>
-    <!--###########################-->
-    <!--Targetas de Twitter-->
-    <meta name="twitter:title" content="Schooltec"/>
-    <meta name="twitter:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
-    <meta name="twitter:card" content="photo"/>
-    <meta name="twitter:site" content="@schooltecnet"/>
-    <meta name="twitter:url" content="https://schooltec.net" />
-    <meta name="twitter:image" content="https://schooltec.net/img/logoschooltec.png"/>
-    <!--###################-->
-    <!-- Open Graph data Facebook -->
-    <meta property="og:title" content="Schooltec"/>
-    <meta property="og:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
-    <meta property="og:type" content="Article" />
-    <meta property="og:site_name" content="Schooltec"/>
-    <meta property="og:url" content="https://schooltec.net/" />
-    <meta property="og:image" content="https://schooltec.net/img/logoschooltec.png"/>
-    <!--###########################--> 
-    <!--Fuentes, estylos, javascript y favicon-->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
-    <link rel="stylesheet" media="all" href="css/stylos.css"/>
-    <link rel="stylesheet" href="css/iconos/iconos.css"/>
-    <link rel="canonical" href="https://schooltec.net"/>
-    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"/>
-    <script src="js/main.js" data-turbolinks-track="true"></script>
-    <!--#######################################-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170661233-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-170661233-1');
-    </script>
-    <!--#################################################-->
-    <script data-ad-client="ca-pub-1273503887164358" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</head>
-<body style="background: white;">
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v7.0'
-        });
-      };
-
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="1649351191998823"
-        theme_color="#5995fd"
-        logged_in_greeting="Hola, ¿en que te podemos ayudar?"
-        logged_out_greeting="Hola, ¿en que te podemos ayudar?">
-    </div>
+    <head>
+        <title>Schooltec</title>
+        <!--Ceo y posicionamiento web-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="author" content="Schooltec"/>
+        <meta name="title" content="Schooltec" >
+        <meta name="description" content="Aprende software de ingeniería, ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
+        <meta name="disribution" content="global"/>
+        <meta name="copyright" content="Copyright 2020 by Schooltec" />
+        <meta name="theme-color" content="#222933"/>
+        <!--###########################-->
+        <!--Targetas de Twitter-->
+        <meta name="twitter:title" content="Schooltec"/>
+        <meta name="twitter:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
+        <meta name="twitter:card" content="photo"/>
+        <meta name="twitter:site" content="@schooltecnet"/>
+        <meta name="twitter:url" content="https://schooltec.net" />
+        <meta name="twitter:image" content="https://schooltec.net/img/logoschooltec.png"/>
+        <!--###################-->
+        <!-- Open Graph data Facebook -->
+        <meta property="og:title" content="Schooltec"/>
+        <meta property="og:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
+        <meta property="og:type" content="Article" />
+        <meta property="og:site_name" content="Schooltec"/>
+        <meta property="og:url" content="https://schooltec.net/" />
+        <meta property="og:image" content="https://schooltec.net/img/logoschooltec.png"/>
+        <!--###########################--> 
+        <!--Fuentes, estylos, javascript y favicon-->
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
+        <link rel="stylesheet" media="all" href="css/stylos.css"/>
+        <link rel="stylesheet" href="css/iconos/iconos.css"/>
+        <link rel="canonical" href="https://schooltec.net"/>
+        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"/>
+        <script src="js/main.js" data-turbolinks-track="true"></script>
+        <!--#######################################-->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170661233-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
     
-    <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
-        <div>
-            <nav>
-                <ul class='no-list collection main-nav'>
-                    <div class='collection-item no-padding-large user-nav' style='font-size:1.1em;'>
-                        <a class="grey-hover" href="index.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Inicio</li>
-                        </a>
-                        <a class="grey-hover" href="cursos.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Cursos</li>
-                        </a>
-                        <a href="talleres.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Talleres</li>
-                        </a>
-                        <a href="blog.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
-                        </a>
-                        <a href="login.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Ingresar</li>
-                        </a>
-                    </div>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <nav class='grey darken-4 fixed new-black-text text-lighten-3 z-depth-1' data-turbolinks-permanent='true' id='main-nav'>
-        <div class="row center-xs relative large-padding">
-            <div class=' main-container col-xs-12 col-sm-11 col-md-10' stlye=''>
-                <div class='box'>
-                    <button aria-label='toggle menu' class='tcon tcon-menu--xbutterfly absolute' id='open_user_data' style='left:1em;top:1.7em;' type='button'>
-                        <span aria-hidden='true' class='tcon-menu__lines'></span>
-                        <span class='tcon-visuallyhidden'></span>
-                    </button>
-                    <ul class='no-list row middle-xs'>
-                        <div class='col-xs-2 hidden-bg'></div>
-                        <div class='no-padding text-left col-xs-5 col-sm-2 col-md-4'>
-                            <div class='box'>
-                                <a href="index.html"><img height="45" src="img/favicon.png" alt="Logotipo" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class=' no-padding text-right col-xs-5                                                                                                                                                                                                              col-sm-9 col-md-8'>
-                            <div class='box'>
-                                <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
-                                    <a class="hidden-xs" href="index.html">
-                                        <li class='inline-block'>
-                                            <i class='icon-home'></i>
-                                            <p class='no-margin be-small'>Inicio</p>
-                                        </li>
-                                    </a>
-                                    <a class="hidden-xs" href="cursos.html">
-                                        <li class='inline-block'>
-                                            <i class='icon-play'></i>
-                                            <p class='no-margin be-small'>Cursos</p>
-                                        </li>
-                                    </a>
-                                    <a class="hidden-xs" href="talleres.html">
-                                        <li class='inline-block'>
-                                            <i class='icon-file-text'></i>
-                                            <p class='no-margin be-small'>Talleres</p>
-                                        </li>
-                                    </a>
-                                    <a class="hidden-xs" href="blog.html">
-                                        <li class='inline-block'>
-                                            <i class="icon-book"></i>
-                                            <p class='no-margin be-small'>Blog</p>
-                                        </li>
-                                    </a>
-                                    <a class="hidden-xs" href="login.html">
-                                        <li class='inline-block'>
-                                            <i class="icon-user-plus"></i>
-                                            <p class='no-margin be-small'>Ingresar</p>
-                                        </li>
-                                    </a>
-                                </ul>
-                            </div>
+            gtag('config', 'UA-170661233-1');
+        </script>
+        <!--#################################################-->
+    </head>
+    <body style="background: #4e5a6e;">
+        <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
+            <div>
+                <nav>
+                    <ul class='no-list collection main-nav'>
+                        <div class='collection-item no-padding-large user-nav' style='font-size:1.1em;'>
+                            <a class="grey-hover" href="index.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Inicio</li>
+                            </a>
+                            <a class="grey-hover" href="cursos.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Cursos</li>
+                            </a>
+                            <a href="blog.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
+                            </a>
+                            <a href="login.php">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Ingresar</li>
+                            </a>
+                            <a href="suscripcion.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Suscríbete</li>
+                            </a>
                         </div>
                     </ul>
-                </div>
+                </nav>    
             </div>
         </div>
-    </nav>
-    <section id="body">
-        <div class="portadaindex">
-            <header class='relative verano-header'>
-                <div class='absolute text-center white-text bold full-width' style='top:1em;'>
-                    <p class="portada__titulo">Schooltec</p>
-                    <p class="portada__descripsion">Aprende software de ingeniería, ofimática y diseño gráfico</p>
+        <nav class='grey darken-4 fixed new-black-text text-lighten-3 z-depth-1' data-turbolinks-permanent='true' id='main-nav'>
+            <div class="row center-xs relative large-padding">
+                <div class=' main-container col-xs-12 col-sm-11 col-md-10' stlye=''>
+                    <div class='box'>
+                        <button aria-label='toggle menu' class='tcon tcon-menu--xbutterfly absolute' id='open_user_data' style='left:1em;top:1.7em;' type='button'>
+                            <span aria-hidden='true' class='tcon-menu__lines'></span>
+                            <span class='tcon-visuallyhidden'></span>
+                        </button>
+                        <ul class='no-list row middle-xs'>
+                            <div class='col-xs-2 hidden-bg'></div>
+                            <div class='no-padding text-left col-xs-5 col-sm-2 col-md-4'>
+                                <div class='box'>
+                                    <a href="index.html"><img height="45" src="img/favicon.png" alt="Logotipo" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class=' no-padding text-right col-xs-5                                                                                                                                                                                                              col-sm-9 col-md-8'>
+                                <div class='box'>
+                                    <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
+                                        <a class="hidden-xs" href="index.html">
+                                            <li class='inline-block'>
+                                                <i class='icon-home'></i>
+                                                <p class='no-margin be-small'>Inicio</p>
+                                            </li>
+                                        </a>
+                                        <a class="hidden-xs" href="cursos.html">
+                                            <li class='inline-block'>
+                                                <i class='icon-play'></i>
+                                                <p class='no-margin be-small'>Cursos</p>
+                                            </li>
+                                        </a>
+                                        <a class="hidden-xs" href="blog.html">
+                                            <li class='inline-block'>
+                                                <i class="icon-book"></i>
+                                                <p class='no-margin be-small'>Blog</p>
+                                            </li>
+                                        </a> 
+                                        <a class="hidden-xs" href="">
+                                            <li class='inline-block'>
+                                                <i class="icon-user-plus"></i>
+                                                <p class='no-margin be-small'>Ingresar</p>
+                                            </li>
+                                        </a>
+                                        <a class="hidden-xs" href="suscripcion.html">
+                                            <li class='inline-block'>
+                                                <i class="icon-credit-card"></i>
+                                                <p class='no-margin be-small'>Suscríbete</p>
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="body">
+            <div class="portadaindex">
+                <header class='relative verano-header'>
+                    <div class='absolute text-center white-text bold full-width' style='top:1em;'>
+                        <p class="portada__titulo">Schooltec</p>
+                        <p class="portada__descripsion">Escuela online de formación profesional en manejo de software</p>
+                        <br>
+                        <a class="botonschooltec02" href="">Ingresa o registrate</a>
+                        <br>
+                        <br>
+                        <br>
+                        <a class="botonschooltec01" href="cursos.html">Buscar cursos</a>
+                </header>
+            </div>
+            <section class='top-30'>
+                <div class="row center-xs text-left ">
+                    <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                        <div class='box'>
+                            <h3 class='be-big slim no-margin'>   
+                                <h4 class="index001">Descubre nuestras categorías</h4>
+                            </h3>
+                            <div class='row top-xs center-xs text-left'>
+                                <div class='col-courses text-left courses-index black-text' style='max-width:930px;flex-basis:930px;'>
+                                    <div class='box'>
+                                        <div id='courses'>
+                                            <div class='top-30'>
+                                                <div class='row center-xs'>
+                                                    <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                        <div class='box'>
+                                                            <a href="programacion.html">
+                                                                <header class='large-padding text-center relative' style='background-color:#5f9bfa'>
+                                                                    <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                                        <img height="20" src="img/ingenieria.png" alt=" " />
+                                                                    </div>
+                                                                    <img style="height:100px;z-index:10" class="relative avatar" src="img/ingenieria.png" alt="" />
+                                                                </header>
+                                                            </a>
+                                                        </div>
+                                                        <div class='white large-padding body'>
+                                                            <h2 class='black-text no-margin normal-line-height'>
+                                                                <a href="programacion.html">Ingeniería</a>
+                                                            </h2>
+                                                            <div class='row bottom-xs'>
+                                                                <div class=' col-xs-6'>
+                                                                    <div class='box'>
+                                                                        <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                        <span class='middle-block'>01 Cursos</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                    <div class='box'>
+                                                                        <div id='add-course-75'>
+                                                                            <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="ingenieria.html">Ver</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                    <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                        <div class='box'>
+                                                            <a href="ofimatica.html">
+                                                                <header class='large-padding text-center relative' style='background-color: #FFCC80'>
+                                                                    <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                                        <img height="20" src="img/ofimatica.png" alt=" " />
+                                                                    </div>
+                                                                    <img style="height:100px;z-index:10" class="relative avatar" src="img/ofimatica.png" alt="Browser" />
+                                                                </header>
+                                                            </a>
+                                                        </div>
+                                                        <div class='white large-padding body'>
+                                                            <h2 class='black-text no-margin normal-line-height'>
+                                                                <a href="ofimatica.html">Ofimática</a>
+                                                            </h2>
+                                                            <div class='row bottom-xs'>
+                                                                <div class=' col-xs-6'>
+                                                                    <div class='box'>
+                                                                        <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                        <span class='middle-block'>02 Cursos</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                    <div class='box'>
+                                                                        <div id='add-course-75'>
+                                                                            <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="ofimatica.html">Ver</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                    <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                        <div class='box'>
+                                                            <a href="software.html">
+                                                                <header class='large-padding text-center relative' style='background-color: #9ff68d'>
+                                                                    <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                                        <img height="20" src="img/dgrafico.png" alt=" " />
+                                                                    </div>
+                                                                    <img style="height:100px;z-index:10" class="relative avatar" src="img/dgrafico.png" alt="Browser" />
+                                                                </header>
+                                                            </a>
+                                                        </div>
+                                                        <div class='white large-padding body'>
+                                                            <h2 class='black-text no-margin normal-line-height'>
+                                                                <a href="software.html">Diseño gráfico</a>
+                                                            </h2>
+                                                            <div class='row bottom-xs'>
+                                                                <div class=' col-xs-6'>
+                                                                    <div class='box'>
+                                                                        <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                        <span class='middle-block'>01 Cursos</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                    <div class='box'>
+                                                                        <div id='add-course-75'>
+                                                                            <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="software.html">Ver</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <center>
+                    <a class="botonschooltec" href="cursos.html">
+                        <color style="color: #ffffff; font-weight: bold;">¡Vamos, aprendamos hoy!</color>
+                    </a>
+                </center>
+                <br>
+            </section>
+            <div class='article-container'>
+                <article class='paragraph'>
+                    <center><span class="index001">La nueva forma de aprender</span>
+                    <p style="font-family: bitter; color: #E9E9E9; font-size: 20px;">Con Schooltec aprendes estés donde estés las 24 horas del día y los 7 días de la semana disponible en cualquier momento. Solo necesitas una PC o Smartphone con acceso a Internet y ganas de aprender.</p>
+                    </center>
                     <br>
-                    <a class="botonschooltec02" href="login.html">Ingresa o registrate</a>
+                    <p><img src="img/equipo.png" alt="" style="display:block;margin:auto;width:550px;height:100%;" /></p>
                     <br>
                     <br>
+                    <center>
+                        <a class="botonschooltec" target="_blank" href="https://youtu.be/c8RSOAPis4A">
+                            <color style="color: #ffffff; font-weight: bold;">Ve como lo hacemos</color>
+                        </a>
+                    </center>
                     <br>
-                    <a class="botonschooltec01" href="cursos.html">Buscar cursos</a>
-            </header>
-        </div>
-        <section class='top-30'>
+                </article>
+            </div>
             <div class="row center-xs text-left ">
                 <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
                     <div class='box'>
                         <h3 class='be-big slim no-margin'>   
-                            <h4 class="index001">Descubre nuestras categorías</h4>
+                            <h4 class="index001">Cursos destacados</h4>
                         </h3>
                         <div class='row top-xs center-xs text-left'>
                             <div class='col-courses text-left courses-index black-text' style='max-width:930px;flex-basis:930px;'>
@@ -187,31 +302,26 @@
                                         <div class='top-30'>
                                             <div class='row center-xs'>
                                                 <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                    <div class='box'>
-                                                        <a href="ingenieria.html">
-                                                            <header class='large-padding text-center relative' style='background-color:#82B1FF'>
-                                                                <div class='absolute' style='top:15px;right:15px;z-index:10;'>
-                                                                    <img height="20" src="img/ingenieria.png" alt=" " />
-                                                                </div>
-                                                                <img style="height:100px;z-index:10" class="relative avatar" src="img/ingenieria.png" alt="" />
-                                                            </header>
+                                                    <div class='box' style="background: #3b4453;">
+                                                        <a href="cursobasicoexcel.html">
+                                                            <img class="imagendecursos" src="img/postcursoexcel.png" alt="">
                                                         </a>
                                                     </div>
                                                     <div class='white large-padding body'>
                                                         <h2 class='black-text no-margin normal-line-height'>
-                                                            <a href="ingenieria.html">Ingeniería</a>
+                                                            <a href="cursobasicoexcel.html">Curso básico de Microsoft Excel</a>
                                                         </h2>
                                                         <div class='row bottom-xs'>
                                                             <div class=' col-xs-6'>
                                                                 <div class='box'>
                                                                     <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                    <span class='middle-block'>01 Cursos</span>
+                                                                    <span class='middle-block'>Gratis</span>
                                                                 </div>
                                                             </div>
                                                             <div class='text-right col-xs-6' style='font-size:0.8em;'>
                                                                 <div class='box'>
                                                                     <div id='add-course-75'>
-                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="ingenieria.html">Ver</a>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursobasicoexcel.html">Detalles</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -219,31 +329,26 @@
                                                     </div>
                                                 </article>
                                                 <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                    <div class='box'>
-                                                        <a href="ofimatica.html">
-                                                            <header class='large-padding text-center relative' style='background-color: #FFCC80'>
-                                                                <div class='absolute' style='top:15px;right:15px;z-index:10;'>
-                                                                    <img height="20" src="img/ofimatica.png" alt=" " />
-                                                                </div>
-                                                                <img style="height:100px;z-index:10" class="relative avatar" src="img/ofimatica.png" alt="Browser" />
-                                                            </header>
+                                                    <div class='box'style="background: #3b4453;">
+                                                        <a href="cursobasicoautocad.html">
+                                                            <img class="imagendecursos" src="img/postcursoautocad.png" alt="">
                                                         </a>
                                                     </div>
                                                     <div class='white large-padding body'>
                                                         <h2 class='black-text no-margin normal-line-height'>
-                                                            <a href="ofimatica.html">Ofimática</a>
+                                                            <a href="cursobasicoautocad.html">Curso básico de Autodesk AutoCad</a>
                                                         </h2>
                                                         <div class='row bottom-xs'>
                                                             <div class=' col-xs-6'>
                                                                 <div class='box'>
                                                                     <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                    <span class='middle-block'>02 Cursos</span>
+                                                                    <span class='middle-block'>Gratis</span>
                                                                 </div>
                                                             </div>
                                                             <div class='text-right col-xs-6' style='font-size:0.8em;'>
                                                                 <div class='box'>
                                                                     <div id='add-course-75'>
-                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="ofimatica.html">Ver</a>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursobasicoautocad.html">Detalles</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -251,31 +356,26 @@
                                                     </div>
                                                 </article>
                                                 <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                    <div class='box'>
-                                                        <a href="diseñografico.html">
-                                                            <header class='large-padding text-center relative' style='background-color: #c6f68d'>
-                                                                <div class='absolute' style='top:15px;right:15px;z-index:10;'>
-                                                                    <img height="20" src="img/dgrafico.png" alt=" " />
-                                                                </div>
-                                                                <img style="height:100px;z-index:10" class="relative avatar" src="img/dgrafico.png" alt="Browser" />
-                                                            </header>
+                                                    <div class='box' style="background: #3b4453;">
+                                                        <a href="cursobasicoword.html">
+                                                            <img class="imagendecursos" src="img/postcursoword.png" alt="">
                                                         </a>
                                                     </div>
                                                     <div class='white large-padding body'>
                                                         <h2 class='black-text no-margin normal-line-height'>
-                                                            <a href="diseñografico.html">Diseño gráfico</a>
+                                                            <a href="cursobasicoword.html">Curso básico de Microsoft Word</a>
                                                         </h2>
                                                         <div class='row bottom-xs'>
                                                             <div class=' col-xs-6'>
                                                                 <div class='box'>
                                                                     <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                    <span class='middle-block'>01 Cursos</span>
+                                                                    <span class='middle-block'>Gratis</span>
                                                                 </div>
                                                             </div>
                                                             <div class='text-right col-xs-6' style='font-size:0.8em;'>
                                                                 <div class='box'>
                                                                     <div id='add-course-75'>
-                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="diseñografico.html">Ver</a>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursobasicoword.html">Detalles</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -292,228 +392,68 @@
                 </div>
             </div>
             <br>
-            <br>
-            <center>
-                <a class="botonschooltec" href="cursos.html">
-                    <color style="color: #ffffff; font-weight: bold;">¡Vamos, aprendamos hoy!</color>
-                </a>
-            </center>
-            <br>
-        </section>
-        <div class='article-container'>
-            <article class='paragraph'>
-                <center><span class="index001">La nueva forma de aprender</span>
-                <p style="font-family: bitter; font-size: 20px;">Con Schooltec aprendes estés donde estés las 24 horas del día y los 7 días de la semana disponible en cualquier momento. Solo necesitas una PC o Smartphone con acceso a Internet y ganas de aprender.</p>
-                </center>
-                <p><img src="img/equipo.png" style="opacity: 0.8;" alt="" style="display:block;margin:auto;width:550px;height:100%;" /></p>
-                <center>
-                    <a class="botonschooltec" target="_blank" href="https://youtu.be/c8RSOAPis4A">
-                        <color style="color: #ffffff; font-weight: bold;">Ve como lo hacemos</color>
-                    </a>
-                </center>
-                <br>
-            </article>
-        </div>
-        <div class="row center-xs text-left ">
-            <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
-                <div class='box'>
-                    <h3 class='be-big slim no-margin'>   
-                        <h4 class="index001">Cursos destacados</h4>
-                    </h3>
-                    <div class='row top-xs center-xs text-left'>
-                        <div class='col-courses text-left courses-index black-text' style='max-width:930px;flex-basis:930px;'>
+            <div class="top-30">
+                <footer class='footer grey darken-4 big-padding white-text'>
+                    <div class="row center-xs text-left ">
+                        <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
                             <div class='box'>
-                                <div id='courses'>
-                                    <div class='top-30'>
-                                        <div class='row center-xs'>
-                                            <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                <div class='box'>
-                                                    <a href="">
-                                                        <a href="cursoexcel.html">
-                                                            <img class="imagendecursos" src="img/postcursoexcel.png" alt="">
-                                                        </a>
-                                                    </a>
-                                                </div>
-                                                <div class='white large-padding body'>
-                                                    <h2 class='black-text no-margin normal-line-height'>
-                                                        <a href="cursoexcel.html">Curso completo de Microsoft Excel</a>
-                                                    </h2>
-                                                    <div class='row bottom-xs'>
-                                                        <div class=' col-xs-6'>
-                                                            <div class='box'>
-                                                                <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                <span class='middle-block'>Gratuito</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                            <div class='box'>
-                                                                <div id='add-course-75'>
-                                                                    <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursoexcel.html">Detalles</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                <div class='box'>
-                                                    <a href="">
-                                                        <a href="cursoautocad2d.html">
-                                                            <img class="imagendecursos" src="img/postcursoautocad.png" alt="">
-                                                        </a>
-                                                    </a>
-                                                </div>
-                                                <div class='white large-padding body'>
-                                                    <h2 class='black-text no-margin normal-line-height'>
-                                                        <a href="cursoautocad2d.html">Curso básico de Autodesk AutoCAD 2D</a>
-                                                    </h2>
-                                                    <div class='row bottom-xs'>
-                                                        <div class=' col-xs-6'>
-                                                            <div class='box'>
-                                                                <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                <span class='middle-block'>Gratuito</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                            <div class='box'>
-                                                                <div id='add-course-75'>
-                                                                    <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursoautocad2d.html">Detalles</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                <div class='box'>
-                                                    <a href="">
-                                                        <a href="cursoword.html">
-                                                            <img class="imagendecursos" src="img/postcursoword.png" alt="">
-                                                        </a>
-                                                    </a>
-                                                </div>
-                                                <div class='white large-padding body'>
-                                                    <h2 class='black-text no-margin normal-line-height'>
-                                                        <a href="cursoword.html">Curso completo de Microsoft Word</a>
-                                                    </h2>
-                                                    <div class='row bottom-xs'>
-                                                        <div class=' col-xs-6'>
-                                                            <div class='box'>
-                                                                <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                <span class='middle-block'>Gratuito</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                            <div class='box'>
-                                                                <div id='add-course-75'>
-                                                                    <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursoword.html">Detalles</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
-                                                <div class='box'>
-                                                    <a href="">
-                                                        <a href="cursoilustrator.html">
-                                                            <img class="imagendecursos" src="img/postcursoilustrator.png" alt="">
-                                                        </a>
-                                                    </a>
-                                                </div>
-                                                <div class='white large-padding body'>
-                                                    <h2 class='black-text no-margin normal-line-height'>
-                                                        <a href="cursoilustrator.html">Curso completo de Adobe Ilustrator</a>
-                                                    </h2>
-                                                    <div class='row bottom-xs'>
-                                                        <div class=' col-xs-6'>
-                                                            <div class='box'>
-                                                                <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                <span class='middle-block'>Gratuito</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class='text-right col-xs-6' style='font-size:0.8em;'>
-                                                            <div class='box'>
-                                                                <div id='add-course-75'>
-                                                                    <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursoilustrator.html">Detalles</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
+                                <div class='row center-xs text-left'>
+                                    <div class='last-xs first-md col-xs-6 col-sm-12 col-md-3 col-lg-2'>
+                                        <div class='box'><img width="150" src="img/favicon.png" alt="" /></div>
+                                    </div>
+                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Contenido</p>
+                                            <ul>
+                                                <li><a href="cursos.html">Cursos</a></li>
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="live.html">Lives</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Cursos</p>
+                                            <ul>
+                                                <li><a href="ingenieria.html">Ingeniería</a></li>
+                                                <li><a href="ofimatica.html">Ofimática</a></li>
+                                                <li><a href="diseñografico.html">Diseño</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Nosotros</p>
+                                            <ul>
+                                                <li><a href="equipo.html">Equipo</a></li>
+                                                <li><a href="contacto.html">Contacto</a></li>
+                                                <li><a href="info.html">Información</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class='social col-xs-6 col-sm-3 col-md-6 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Redes sociales</p>
+                                            <a href="https://twitter.com/schooltecnet" target="_blank">
+                                                <img height="25" src="img/twitter.png" alt="twitter" />
+                                            </a>
+                                            <a href="https://www.facebook.com/schooltec" target="_blank">
+                                                <img height="25" src="img/facebook.png" alt="Facebook" />
+                                            </a>
+                                            <a href="https://instagram.com/schooltecnet" target="_blank">
+                                                <img height="25" src="img/instagram.png" alt="twitter" />
+                                            </a>
+                                            <a href="https://www.youtube.com/channel/UCuwZ4xgQ-hYZ0r_Mh4vph-w" target="_blank">
+                                                <img height="25" src="img/youtube.png" alt="Youtube" />
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </footer>
             </div>
-        </div>
-        <br>
-        <div class="top-30">
-            <footer class='footer grey darken-4 big-padding white-text'>
-                <div class="row center-xs text-left ">
-                    <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
-                        <div class='box'>
-                            <div class='row center-xs text-left'>
-                                <div class='last-xs first-md col-xs-6 col-sm-12 col-md-3 col-lg-2'>
-                                    <div class='box'><img width="150" src="img/favicon.png" alt="" /></div>
-                                </div>
-                                <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
-                                    <div class='box'>
-                                        <p class='uppercase green-flat-text'>Contenido</p>
-                                        <ul>
-                                            <li><a href="cursos.html">Cursos</a></li>
-                                            <li><a href="talleres.html">Talleres</a></li>
-                                            <li><a href="blog.html">blog</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
-                                    <div class='box'>
-                                        <p class='uppercase green-flat-text'>Cursos</p>
-                                        <ul>
-                                            <li><a href="ingenieria.html">Ingeniería</a></li>
-                                            <li><a href="ofimatica.html">Ofimática</a></li>
-                                            <li><a href="diseñografico.html">Diseño</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
-                                    <div class='box'>
-                                        <p class='uppercase green-flat-text'>Nosotros</p>
-                                        <ul>
-                                            <li><a href="equipo.html">Equipo</a></li>
-                                            <li><a target="_blank" href="https://m.me/schooltec">Contacto</a></li>
-                                            <li><a href="info.html">Información</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class='social col-xs-6 col-sm-3 col-md-6 col-lg-2'>
-                                    <div class='box'>
-                                        <p class='uppercase green-flat-text'>Redes sociales</p>
-                                        <a href="https://twitter.com/schooltecnet" target="_blank">
-                                            <img height="25" src="img/twitter.png" alt="twitter" />
-                                        </a>
-                                        <a href="https://www.facebook.com/schooltec" target="_blank">
-                                            <img height="25" src="img/facebook.png" alt="Facebook" />
-                                        </a>
-                                        <a href="https://instagram.com/schooltecnet" target="_blank">
-                                            <img height="25" src="img/instagram.png" alt="twitter" />
-                                        </a>
-                                        <a href="https://www.youtube.com/channel/UCuwZ4xgQ-hYZ0r_Mh4vph-w" target="_blank">
-                                            <img height="25" src="img/youtube.png" alt="Youtube" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
 </html>

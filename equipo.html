@@ -8,26 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="author" content="Schooltec"/>
     <meta name="title" content="Schooltec" >
-    <meta name="description" content="Aprende software de ingeniería, ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
+    <meta name="description" content="Aprende desarrollo web, Ofimatica y manejo de software a cualquier hora y en cualquier lugar."/>
     <meta name="disribution" content="global"/>
-    <meta name="copyright" content="Copyright 2020 by Schooltec" />
-    <meta name="theme-color" content="#e9e9e9"/>
+    <meta name="copyright" content="Copyright 2019 by Schooltec" />
+    <meta name="theme-color" content="#212121"/>
     <!--###########################-->
     <!--Targetas de Twitter-->
     <meta name="twitter:title" content="Schooltec | Equipo"/>
-    <meta name="twitter:description" content="Aprende software de ingeniería, ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
+    <meta name="twitter:description" content="Aprende desarrollo web, Ofimatica y manejo de software a cualquier hora y en cualquier lugar."/>
     <meta name="twitter:card" content="photo"/>
     <meta name="twitter:site" content="@schooltecnet"/>
-    <meta name="twitter:url" content="https://schooltec.net/equipo" />
-    <meta name="twitter:image" content="https://schooltec.net/img/postequipo.png"/>
+    <meta name="twitter:url" content="https://schooltec.net" />
+    <meta name="twitter:image" content="https://schooltec.net/img/logoschooltec.png"/>
     <!--###################-->
     <!-- Open Graph data Facebook -->
     <meta property="og:title" content="Schooltec | Equipo"/>
-    <meta property="og:description" content="Aprende software de ingeniería, ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
+    <meta property="og:description" content="Aprende desarrollo web, Ofimatica y manejo de software a cualquier hora y en cualquier lugar."/>
     <meta property="og:type" content="Article" />
     <meta property="og:site_name" content="Schooltec"/>
-    <meta property="og:url" content="https://schooltec.net/equipo" />
-    <meta property="og:image" content="https://schooltec.net/img/postequipo.png"/>
+    <meta property="og:url" content="https://schooltec.net/" />
+    <meta property="og:image" content="https://schooltec.net/img/logoschooltec.png"/>
     <!--###########################-->
     <!--Fuentes, estylos, javascript y favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
@@ -38,17 +38,16 @@
     <script src="js/main.js" data-turbolinks-track="true"></script>
     <!--#######################################-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170661233-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142474303-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
-        gtag('config', 'UA-170661233-1');
+        gtag('config', 'UA-142474303-1');
     </script>
     <!--#################################################-->
 </head>
-<body>
+<body style="background: rgb(77, 77, 82);">
     <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
         <div>
             <nav>
@@ -66,8 +65,11 @@
                         <a href="blog.html">
                             <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
                         </a>
-                        <a href="login.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Ingresar</li>
+                        <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VD7YBBX93VH4L&source=url">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Donate</li>
+                        </a>
+                        <a href="https://schooltec.net/equipo">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Día</li>
                         </a>
                     </div>
                 </ul>
@@ -92,12 +94,7 @@
                         <div class=' no-padding text-right col-xs-5 col-sm-9 col-md-8'>
                             <div class='box'>
                                 <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
-                                    <a class="hidden-xs" href="index.html">
-                                        <li class='inline-block'>
-                                            <i class='icon-home'></i>
-                                            <p class='no-margin be-small'>Inicio</p>
-                                        </li>
-                                    </a>
+                             
                                     <a class="hidden-xs" href="cursos.html">
                                         <li class='inline-block'>
                                             <i class='icon-play'></i>
@@ -115,11 +112,17 @@
                                             <i class="icon-book"></i>
                                             <p class='no-margin be-small'>Blog</p>
                                         </li>
-                                    </a>
-                                    <a class="hidden-xs" href="login.html">
+                                    </a>  
+                                    <a class="hidden-xs" target="_blank"href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VD7YBBX93VH4L&source=url">
                                         <li class='inline-block'>
-                                            <i class="icon-user-plus"></i>
-                                            <p class='no-margin be-small'>Ingresar</p>
+                                            <i class="icon-gift"></i>
+                                            <p class='no-margin be-small'>Donate</p>
+                                        </li>
+                                    </a>
+                                    <a class="hidden-xs" href="https://schooltec.net/equipo">
+                                        <li class='inline-block'>
+                                            <i class="icon-contrast"></i>
+                                            <p class='no-margin be-small'>Día</p>
                                         </li>
                                     </a>
                                 </ul>
@@ -130,7 +133,7 @@
             </div>
         </div>
     </nav>
-    <header class='relative big-padding big-top-space white-text text-center' style='background-color: #80d8ff'>
+    <header class='relative big-padding big-top-space white-text text-center' style='background-color: rgb(53, 54, 58);'>
         <h4 class="index001">Conocenos</h4>
     </header>
     <div class='article-container'>
@@ -138,7 +141,7 @@
             <span class="index001">Diferentes roles, una sola meta</span>
             <p>Programación, diseño, <a href="https://www.facebook.com/schooltec/" target="_blank">comunidad</a>, investigación y prducto.</p>
             <br>
-            <p><img src="img/equipo.png" alt="" style="display:block;margin:auto;width:550px;height:100%;" /></p>
+            <p><img src="img/equipo1.png" alt="" style="display:block;margin:auto;width:550px;height:100%;" /></p>
             <br>
             <br>
             <center>
@@ -151,7 +154,8 @@
             <span class="index001">Nos identificamos con todos</span>
             <p>Hacemos pruebas en dispositivos de todo tipo y a diferentes velocidades de conexión a Internet para brindarte lo mejor de nosotros.</p>
             <br>
-            <p><img src="img/equipo01.png" alt="" style="display:block;margin:auto;width:550px;height:100%;" /></p>
+            <br>
+            <p><img src="img/equipo2.png" alt="" style="display:block;margin:auto;width:550px;height:100%;" /></p>
             <br>
             <br>
             <center>
@@ -163,7 +167,7 @@
             <br>
             <span class="index001">Horarios flexibles</span>
             <p>Aprendes a cualquier hora y en cualquier lugar disponible las 24 horas para que aprendas estés donde estés.</p>
-            
+            <br>
             <p><img src="img/equipo3.png" alt="" style="display:block;margin:auto;width:550px;height:100%;" /></p>
         </article>
         <br>
@@ -191,9 +195,9 @@
                                 <div class='box'>
                                     <p class='uppercase green-flat-text'>Cursos</p>
                                     <ul>
-                                        <li><a href="ingenieria.html">Ingeniería</a></li>
+                                        <li><a href="programacion.html">Programación</a></li>
                                         <li><a href="ofimatica.html">Ofimática</a></li>
-                                        <li><a href="diseñografico.html">Diseño</a></li>
+                                        <li><a href="software.html">Software</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -231,5 +235,4 @@
         </footer>
     </div>
 </body>
-
 </html>

@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Schooltec | Talleres</title>
+    <title>Schooltec | Blog</title>
     <!--Ceo y posicionamiento web-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="author" content="Schooltec"/>
     <meta name="title" content="Schooltec" >
-    <meta name="description" content="Actualidad, artículos y talleres sobre software de ingeniería, ofimática y diseño gráfico"/>
+    <meta name="description" content="Actualidad, artículos y talleres sobre desarrollo web, ofimática y manejo de software."/>
     <meta name="disribution" content="global"/>
-    <meta name="copyright" content="Copyright 2020 by Schooltec" />
-    <meta name="theme-color" content="#e9e9e9"/>
+    <meta name="copyright" content="Copyright 2019 by Schooltec" />
+    <meta name="theme-color" content="#212121"/>
     <!--###########################-->
     <!--Targetas de Twitter-->
-    <meta name="twitter:title" content="Schooltec | Talleres"/>
-    <meta name="twitter:description" content="Actualidad, artículos y talleres sobre software de ingeniería, ofimática y diseño gráfico"/>
+    <meta name="twitter:title" content="Schooltec | Blog"/>
+    <meta name="twitter:description" content="Actualidad, artículos y talleres sobre desarrollo web, ofimática y manejo de software."/>
     <meta name="twitter:card" content="photo"/>
     <meta name="twitter:site" content="@schooltecnet"/>
-    <meta name="twitter:url" content="https://schooltec.net/talleres" />
-    <meta name="twitter:image" content="https://schooltec.net/img/postcursos.png"/>
+    <meta name="twitter:url" content="https://schooltec.net" />
+    <meta name="twitter:image" content="https://schooltec.net/img/logoschooltec.png"/>
     <!--###################-->
     <!-- Open Graph data Facebook -->
-    <meta property="og:title" content="Schooltec | Talleres"/>
-    <meta property="og:description" content="Actualidad, artículos y talleres sobre software de ingeniería, ofimática y diseño gráfico"/>
+    <meta property="og:title" content="Schooltec | Blog"/>
+    <meta property="og:description" content="Actualidad, artículos y talleres sobre desarrollo web, ofimática y manejo de software."/>
     <meta property="og:type" content="Article" />
     <meta property="og:site_name" content="Schooltec"/>
-    <meta property="og:url" content="https://schooltec.net/talleres" />
-    <meta property="og:image" content="https://schooltec.net/img/postcursos.png"/>
+    <meta property="og:url" content="https://schooltec.net/" />
+    <meta property="og:image" content="https://schooltec.net/img/logoschooltec.png"/>
     <!--###########################-->
     <!--Fuentes, estylos, javascript y favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
@@ -38,17 +38,16 @@
     <script src="js/main.js" data-turbolinks-track="true"></script>
     <!--#######################################-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170661233-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142474303-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
-        gtag('config', 'UA-170661233-1');
+        gtag('config', 'UA-142474303-1');
     </script>
     <!--#################################################-->
 </head>
-<body>
+<body style="background: rgb(77, 77, 82);">
     <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
         <div>
             <nav>
@@ -66,8 +65,11 @@
                         <a href="blog.html">
                             <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
                         </a>
-                        <a href="login.html">
-                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Ingresar</li>
+                        <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VD7YBBX93VH4L&source=url">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Donate</li>
+                        </a>
+                        <a href="https://schooltec.net/talleres">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Día</li>
                         </a>
                     </div>
                 </ul>
@@ -92,12 +94,6 @@
                         <div class=' no-padding text-right col-xs-5 col-sm-9 col-md-8'>
                             <div class='box'>
                                 <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
-                                    <a class="hidden-xs" href="index.html">
-                                        <li class='inline-block'>
-                                            <i class='icon-home'></i>
-                                            <p class='no-margin be-small'>Inicio</p>
-                                        </li>
-                                    </a>
                                     <a class="hidden-xs" href="cursos.html">
                                         <li class='inline-block'>
                                             <i class='icon-play'></i>
@@ -115,11 +111,17 @@
                                             <i class="icon-book"></i>
                                             <p class='no-margin be-small'>Blog</p>
                                         </li>
-                                    </a>
-                                    <a class="hidden-xs" href="login.html">
+                                    </a>  
+                                    <a class="hidden-xs" target="_blank"href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VD7YBBX93VH4L&source=url">
                                         <li class='inline-block'>
-                                            <i class="icon-user-plus"></i>
-                                            <p class='no-margin be-small'>Ingresar</p>
+                                            <i class="icon-gift"></i>
+                                            <p class='no-margin be-small'>Donate</p>
+                                        </li>
+                                    </a>
+                                    <a class="hidden-xs" href="https://schooltec.net/talleres">
+                                        <li class='inline-block'>
+                                            <i class="icon-contrast"></i>
+                                            <p class='no-margin be-small'>Día</p>
                                         </li>
                                     </a>
                                 </ul>
@@ -142,33 +144,64 @@
                                     <div id='courses'>
                                         <div class='top-30'>
                                             <div class='row center-xs'>
-
                                                 <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
                                                     <div class='box'>
-                                                        <a href="talleresautocad001.html">
-                                                            <header class='large-padding text-center relative' style='background-color: rgb(124, 116, 233)'>
+                                                        <a href="blogappsgratuitasparaaprender.html">
+                                                            <header class='large-padding text-center relative' style='background-color:#068CF6'>
                                                                 <div class='absolute' style='top:15px;right:15px;z-index:10;'>
-                                                                    <img height="20" src="img/autodesk.png" alt="" />
+                                                                    <img height="20" src="img/apps.png" alt=" " />
                                                                 </div>
-                                                                <img style="height:100px;z-index:10" class="relative avatar" src="img/autodesk.png" alt="Browser" />
+                                                                <img style="height:100px;z-index:10" class="relative avatar" src="img/apps.png" alt="" />
                                                             </header>
                                                         </a>
                                                     </div>
                                                     <div class='white large-padding body'>
                                                         <h2 class='black-text no-margin normal-line-height'>
-                                                            <a href="talleresautocad001.html">Uso de lineas y circulos en AutoCAD</a>
+                                                            <a href="blogappsgratuitasparaaprender.html">Apps gratuitas para aprender</a>
                                                         </h2>
                                                         <div class='row bottom-xs'>
                                                             <div class=' col-xs-6'>
                                                                 <div class='box'>
                                                                     <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
-                                                                    <span class='middle-block'>Taller</span>
+                                                                    <span class='middle-block'>blog</span>
                                                                 </div>
                                                             </div>
                                                             <div class='text-right col-xs-6' style='font-size:0.8em;'>
                                                                 <div class='box'>
                                                                     <div id='add-course-75'>
-                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="talleresautocad001.html">Leer</a>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="blogappsgratuitasparaaprender.html">Leer</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                    <div class='box'>
+                                                        <a href="blogqueesandroid.html">
+                                                            <header class='large-padding text-center relative' style='background-color:rgb(82, 245, 169)'>
+                                                                <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                                    <img height="20" src="img/androi.png" alt=" " />
+                                                                </div>
+                                                                <img style="height:100px;z-index:10" class="relative avatar" src="img/androi.png" alt="" />
+                                                            </header>
+                                                        </a>
+                                                    </div>
+                                                    <div class='white large-padding body'>
+                                                        <h2 class='black-text no-margin normal-line-height'>
+                                                            <a href="blogqueesandroid.html">¿Qué es Android?</a>
+                                                        </h2>
+                                                        <div class='row bottom-xs'>
+                                                            <div class=' col-xs-6'>
+                                                                <div class='box'>
+                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                    <span class='middle-block'>blog</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                <div class='box'>
+                                                                    <div id='add-course-75'>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="blogqueesandroid.html">Leer</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -208,9 +241,9 @@
                                     <div class='box'>
                                         <p class='uppercase green-flat-text'>Cursos</p>
                                         <ul>
-                                            <li><a href="ingenieria.html">Ingeniería</a></li>
+                                            <li><a href="programacion.html">Programación</a></li>
                                             <li><a href="ofimatica.html">Ofimática</a></li>
-                                            <li><a href="diseñografico.html">Diseño</a></li>
+                                            <li><a href="software.html">Software</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -247,5 +280,6 @@
                 </div>
             </footer>
         </div>
+    </section>
 </body>
 </html>
