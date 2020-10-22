@@ -39,7 +39,7 @@
 .botonschooltec01{
     padding: 15px; /*espacio alrededor texto*/
    
-    background-image: linear-gradient(-45deg, #65fd98 0%,  #aefac5 100%);
+    background-color: #6f4ef6;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -76,7 +76,7 @@
 }
 
 .index001 {
-    color: #509bf5;
+    color: #49f2d2;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bitter', serif;
@@ -86,7 +86,7 @@
 }
 
 .portadaindex{
-    background-image: linear-gradient(-45deg, #3b6775 0%,  #243c5c 100%);
+    background-image: linear-gradient(-45deg, #4894ac 0%,  #2f588f 100%);
     
 }
 
@@ -25400,7 +25400,7 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #3b4453;
+    background-color: #2b2f47;
 }
 
 .white-text {
