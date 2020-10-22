@@ -4,7 +4,7 @@
 
 .portada__titulo {
     position: center;
-    margin-top: 70px; 
+    margin-top: 90px; 
     color: #ffffff; 
     font-weight: bold; 
     font-size: 40px; 
@@ -20,119 +20,13 @@
     font-family: 'Bitter', serif;
 }
 
-
-/**#########################
-           LOGIN
-#########################**/
-
-.hero {
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(rgba(56, 64, 170, 0.4), rgba(43, 77, 141, 0.4)), url(img/portada.png);
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-}
-
-.form-box {
-    width: 320px;
-    height: 430px;
-    position: relative;
-    margin: 10% auto;
-    background: #fff;
-    padding: 5px;
-    overflow: hidden;
-    border-radius: 15px;
-    background-color: rgb(226, 226, 226);
-}
-
-.button-box {
-    width: 244px;
-    margin: 35px auto;
-    position: relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
-    border-radius: 30px;
-}
-
-.toggle-btn {
-    padding: 10px 30px;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    outline: none;
-    position: relative;
-}
-
-#btn {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 134px;
-    height: 100%;
-    background: linear-gradient(to right, #1070ff, #63eb63);
-    border-radius: 30px;
-    transition: .5s;
-}
-
-.social-icons {
-    margin: 30px, auto;
-    text-align: center;
-}
-
-.social-icons img {
-    width: 30px;
-    margin: 0 12px;
-    box-shadow: 0 0 20px 0 #7f7f7f3d;
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-.input-group {
-    top: 180px;
-    position: absolute;
-    width: 280px;
-    transition: .5s;
-}
-
-.input-field {
-    width: 100%;
-    padding: 10px 0;
-    margin: 5px 0;
-    border-left: 0;
-    border-top: 0;
-    border-right: 0;
-    border-bottom: 1px solid #999;
-    outline: none;
-    background: transparent;
-}
-
-.submit-btn {
-    width: 85%;
-    padding: 10px 30px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    background: linear-gradient(to right, #1070ff, #63eb63);
-    outline: none;
-    border-radius: 30px;
-}
-
-#login {
-    left: 22px;
-}
-
-#register {
-    left: 422px;
-}
-
-
 /**#########################
            BOTONES
 #########################**/
 
 .botonschooltec{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #5995fd; /*color botón*/
+    background-image: linear-gradient(-45deg, #04befe 0%,  #235390 100%);
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -144,7 +38,8 @@
 
 .botonschooltec01{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: transparent; /*color botón*/
+   
+    background-image: linear-gradient(-45deg, #65fd98 0%,  #aefac5 100%);
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -156,7 +51,7 @@
 
 .botonschooltec02{
         padding: 15px; /*espacio alrededor texto*/
-        background-color: #46f5acd0; /*color botón*/
+        background-image: linear-gradient(-45deg, #04befe 0%,  #235390 100%);
         text-decoration: none; /*decoración texto*/
         text-transform: uppercase; /*capitalización texto*/
         font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -165,11 +60,6 @@
         color: #fff;
         border: 2px solid rgb(235, 234, 234);
 }
-
-
-/**#########################
-           IMPORTANTE
-#########################**/
 
 .imagendecursos{
     height: 160px;
@@ -196,8 +86,7 @@
 }
 
 .portadaindex{
-    
-    background-image: linear-gradient(-45deg, #04befe 0%,  #235390 100%);
+    background-image: linear-gradient(-45deg, #3b6775 0%,  #243c5c 100%);
     
 }
 
@@ -2461,7 +2350,7 @@ a.custom-grey:hover {
 }
 
 .blue {
-    background-color: #2196F3!important
+    background-color: rgb(53, 54, 58);
 }
 
 .blue-hover:hover {
@@ -2514,7 +2403,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: #1976D2!important
+    background-color: rgb(53, 54, 58);
 }
 
 .blue-hover.darken-2-hover:hover {
@@ -6803,7 +6692,7 @@ a.custom-grey:hover {
 }
 
 .grey.darken-4 {
-    background-color: #212121!important
+    background-color: #222933!important
 }
 
 .grey-hover.darken-4-hover:hover {
@@ -7052,7 +6941,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #000000!important
+    color: #E9E9E9;
 }
 
 .black-text-hover:hover {
@@ -7064,11 +6953,11 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #FFFFFF!important
+    background-color: rgb(53, 54, 58);
 }
 
 .white-text {
-    color: #FFFFFF!important
+    color: rgb(172, 170, 170);
 }
 
 .white-text-hover:hover {
@@ -7080,7 +6969,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #242427!important
+    color: #E9E9E9;
 }
 
 html {
@@ -7744,7 +7633,7 @@ th {
 }
 
 .collection .collection-item {
-    background-color: #eee;
+    background-color: #3b4453;
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0px;
@@ -8612,7 +8501,7 @@ html {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: rgba(37, 35, 35, 0.87)
+    color: rgb(172, 170, 170);
 }
 
 @media only screen and (min-width: 0) {
@@ -9301,7 +9190,7 @@ footer.page-footer .footer-copyright {
     position: absolute;
     bottom: 0;
     height: 5px;
-    background-color: #f3f5f4;
+    background-color: rgb(53, 54, 58);
     will-change: left, right
 }
 
@@ -20907,7 +20796,7 @@ a.custom-grey:hover {
 }
 
 .blue {
-    background-color: #2196F3 !important
+    background-color: rgb(53, 54, 58);
 }
 
 .blue-hover:hover {
@@ -20960,7 +20849,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-image: linear-gradient(-45deg, #04befe 0%,  #235390 100%);
+    background-color: #3b4453;
 }
 
 
@@ -25214,7 +25103,7 @@ a.custom-grey:hover {
 }
 
 .grey-text.text-darken-2 {
-    color: #509bf5 !important
+    color: #43d9d3 !important
 }
 
 .grey-text-hover.text-darken-2 {
@@ -25250,7 +25139,7 @@ a.custom-grey:hover {
 }
 
 .grey.darken-4 {
-    background-color:#E9E9E9!important
+    background-color:rgba(32,33,36,1);
 }
 
 .grey-hover.darken-4-hover:hover {
@@ -25499,7 +25388,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #000000 !important
+    color: #E9E9E9;
 }
 
 .black-text-hover:hover {
@@ -25511,11 +25400,11 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #fff !important
+    background-color: #3b4453;
 }
 
 .white-text {
-    color: rgb(173, 167, 167) !important
+    color: rgb(172, 170, 170);
 }
 
 .white-text-hover:hover {
@@ -25527,7 +25416,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #757c86 !important
+    color: #afb2b6;
 }
 
 .login-section:not(.active) {
@@ -25632,8 +25521,7 @@ a.custom-grey:hover {
     background-image: url("img/portada.png");
     background-size: cover;
     background-position: center;
-    height: 90vh;
-    
+    height: 90vh
     
 }
 
@@ -27319,7 +27207,7 @@ nav.fixed {
 .paragraph {
     line-height: 1.9;
     padding: 1em 0;
-    color: #757c86;
+    color: #E9E9E9;
     font-size: 16px;
     text-align: justify
 }
