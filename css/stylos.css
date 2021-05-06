@@ -18690,7 +18690,7 @@ a.custom-light-blue:hover {
 }
 
 .green-flat-text {
-    color: #8f97a3 !important
+    color: #E9E9E9 !important
 }
 
 .green-flat-text-hover {
@@ -25400,7 +25400,7 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #2b2f47;
+    background-color: #24385b;
 }
 
 .white-text {
@@ -25416,7 +25416,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #afb2b6;
+    color: #E9E9E9;
 }
 
 .login-section:not(.active) {
