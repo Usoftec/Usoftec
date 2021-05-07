@@ -26,19 +26,19 @@
 
 .botonschooltec{
     padding: 15px; /*espacio alrededor texto*/
-    background-image: linear-gradient(-45deg, #04befe 0%,  #235390 100%);
+    background-color: #6f4ef6;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     border-radius: 49px; /*bordes redondos*/
     font-size: 15px;
     color: #fff;
-    border: none;
+    border: 2px solid rgb(235, 234, 234);
+
 }
 
 .botonschooltec01{
     padding: 15px; /*espacio alrededor texto*/
-   
     background-color: #6f4ef6;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
@@ -50,15 +50,15 @@
 }
 
 .botonschooltec02{
-        padding: 15px; /*espacio alrededor texto*/
-        background-image: linear-gradient(-45deg, #04befe 0%,  #235390 100%);
-        text-decoration: none; /*decoración texto*/
-        text-transform: uppercase; /*capitalización texto*/
-        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-        border-radius: 49px; /*bordes redondos*/
-        font-size: 15px;
-        color: #fff;
-        border: 2px solid rgb(235, 234, 234);
+    padding: 15px; /*espacio alrededor texto*/
+    background-color: #6f4ef6;
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 49px; /*bordes redondos*/
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid rgb(235, 234, 234);
 }
 
 .imagendecursos{
@@ -86,7 +86,7 @@
 }
 
 .portadaindex{
-    background-image: linear-gradient(-45deg, #3c7c8f 0%,  #284c7a 100%);
+    background-image: linear-gradient(-45deg, #b2b1f8 0%,  #1253a8e1 100%);
     
 }
 
@@ -7633,7 +7633,7 @@ th {
 }
 
 .collection .collection-item {
-    background-color: #2b2f47;
+    background-color: #24385b;
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0px;
