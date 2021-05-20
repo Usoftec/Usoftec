@@ -76,7 +76,7 @@
 }
 
 .index001 {
-    color: #49f2d2;
+    color: #6f4ef6;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bitter', serif;
@@ -8859,7 +8859,7 @@ footer.page-footer .footer-copyright {
     position: relative;
     overflow: hidden;
     margin: 0.5rem 0 1rem 0;
-    background-color: #fff;
+    background-color: #24385b;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -9147,7 +9147,7 @@ footer.page-footer .footer-copyright {
 .tabs {
     position: relative;
     height: 60px;
-    background-color: #FFF;
+    background-color: #24385b;
     margin: 0 auto;
     width: 100%;
     white-space: nowrap
@@ -9190,7 +9190,7 @@ footer.page-footer .footer-copyright {
     position: absolute;
     bottom: 0;
     height: 5px;
-    background-color: rgb(53, 54, 58);
+    background-color: #6f4ef6;
     will-change: left, right
 }
 
@@ -18690,7 +18690,7 @@ a.custom-light-blue:hover {
 }
 
 .green-flat-text {
-    color: #E9E9E9 !important
+    color: #e9e9ce !important
 }
 
 .green-flat-text-hover {
@@ -20849,7 +20849,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: #3b4453;
+    background-color: #1c233f;
 }
 
 
@@ -25103,7 +25103,7 @@ a.custom-grey:hover {
 }
 
 .grey-text.text-darken-2 {
-    color: #43d9d3 !important
+    color: #6f4ef6 !important
 }
 
 .grey-text-hover.text-darken-2 {
