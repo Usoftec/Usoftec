@@ -2,6 +2,10 @@
            PORTADA
 #########################**/
 
+
+
+
+
 .portada__titulo {
     position: center;
     margin-top: 90px; 
@@ -26,7 +30,7 @@
 
 .botonschooltec{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #6f4ef6;
+    background-color: #3284ef;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -39,7 +43,7 @@
 
 .botonschooltec01{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #6f4ef6;
+    background-color: #3284ef;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -51,7 +55,7 @@
 
 .botonschooltec02{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #6f4ef6;
+    background-color: #3284ef;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -76,7 +80,7 @@
 }
 
 .index001 {
-    color: #6f4ef6;
+    color: #3284ef;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bitter', serif;
@@ -86,7 +90,7 @@
 }
 
 .portadaindex{
-    background-image: linear-gradient(-45deg, #b2b1f8 0%,  #1253a8e1 100%);
+    background-image: linear-gradient(-45deg, #607d8b 0%,  #34515e 100%);
     
 }
 
@@ -6692,7 +6696,7 @@ a.custom-grey:hover {
 }
 
 .grey.darken-4 {
-    background-color: #24385b!important
+    background-color: #34515e!important
 }
 
 .grey-hover.darken-4-hover:hover {
@@ -7633,11 +7637,11 @@ th {
 }
 
 .collection .collection-item {
-    background-color: #24385b;
+    background-color: 29434e;
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0px;
-    border-bottom: 1px solid #e0e0e0
+    border-bottom: 5px solid #e0e0e0
 }
 
 .collection .collection-item.avatar {
@@ -9147,7 +9151,7 @@ footer.page-footer .footer-copyright {
 .tabs {
     position: relative;
     height: 60px;
-    background-color: #24385b;
+    background-color: #34515e;
     margin: 0 auto;
     width: 100%;
     white-space: nowrap
@@ -20849,7 +20853,7 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: #1c233f;
+    background-color: #0d1a2e;
 }
 
 
@@ -25400,7 +25404,7 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #24385b;
+    background-color: #1c313a;
 }
 
 .white-text {
