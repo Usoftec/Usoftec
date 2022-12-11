@@ -2,14 +2,10 @@
            PORTADA
 #########################**/
 
-
-
-
-
 .portada__titulo {
     position: center;
     margin-top: 90px; 
-    color: #ffffff; 
+    color: #E9E9E9; 
     font-weight: bold; 
     font-size: 40px; 
     font-family: 'Bitter', serif;
@@ -18,7 +14,7 @@
 .portada__descripsion {
     position: center;
     margin-top: -20px; 
-    color: #e3e4e9; 
+    color: #d1cfcf; 
     font-weight: bold; 
     font-size: 28px; 
     font-family: 'Bitter', serif;
@@ -30,39 +26,51 @@
 
 .botonschooltec{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #3284ef;
+    background-color: none;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 49px; /*bordes redondos*/
+    border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
-    color: #fff;
-    border: 2px solid rgb(235, 234, 234);
+    color: #ffffff;
+    border: 1px solid #1d9bf0;
 
 }
 
 .botonschooltec01{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #3284ef;
+    background-color: none;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 49px; /*bordes redondos*/
-    font-size: 15px;
-    color: #fff;
-    border: 2px solid rgb(235, 234, 234);
+    border-radius: 12px; /*bordes redondos*/
+    font-size: 10px;
+    color: #ffffff;
+    border: 1px solid #4b22f4;
 }
 
 .botonschooltec02{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #3284ef;
+    background-color: #4b22f4;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 49px; /*bordes redondos*/
+    border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
-    color: #fff;
-    border: 2px solid rgb(235, 234, 234);
+    color:none;
+    border: 1px solid #4b22f4;
+}
+
+.botonschooltec03{
+    padding: 15px; /*espacio alrededor texto*/
+    background-color: none;
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 12px; /*bordes redondos*/
+    font-size: 15px;
+    color: #ffffff;
+    border: 2px solid #4b22f4;
 }
 
 .imagendecursos{
@@ -72,7 +80,7 @@
 }
 
 .equipo001 {
-    color: #0089ec;
+    color: #1d9bf0;
     font-weight: bold;
     font-size: 20px;
     font-family: 'Bitter', serif;
@@ -80,7 +88,7 @@
 }
 
 .index001 {
-    color: #3284ef;
+    color: #1d9bf0;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bitter', serif;
@@ -90,7 +98,7 @@
 }
 
 .portadaindex{
-    background-image: linear-gradient(-45deg, #607d8b 0%,  #34515e 100%);
+    background-image: linear-gradient(86deg, rgba(1,43,73,1) 0%, rgba(1,37,66,1) 49%, rgba(1,12,46,1) 100%);
     
 }
 
@@ -99,9 +107,7 @@
 ESTA ES LA SECCION DE LA PAGINA PRINCIPAL
 #####################################################**/
 
-body {
-    background-color: #000;
-}
+
 
 .red-christmas {
     background-color: #f33c51!important
@@ -244,11 +250,11 @@ a.custom-light-blue:hover {
 }
 
 .green-flat {
-    background-color: #0ABF75!important
+    background-color: #4b22f4!important
 }
 
 .green-flat-text {
-    color: #0ABF75!important
+    color: #4b22f4!important
 }
 
 .green-flat-text-hover {
@@ -256,7 +262,7 @@ a.custom-light-blue:hover {
 }
 
 .green-flat-text-hover:hover {
-    color: #0ABF75!important
+    color: #4b22f4!important
 }
 
 a.green-flat:hover {
@@ -6696,7 +6702,7 @@ a.custom-grey:hover {
 }
 
 .grey.darken-4 {
-    background-color: #34515e!important
+    background-color: #0c1633!important
 }
 
 .grey-hover.darken-4-hover:hover {
@@ -7687,7 +7693,7 @@ th {
 }
 
 .collection .collection-item.active {
-    background-color: #0ABF75;
+    background-color: #4b22f4;
     color: #e4fef3
 }
 
@@ -7698,7 +7704,7 @@ th {
     -o-transition: 0.25s;
     -ms-transition: 0.25s;
     transition: 0.25s;
-    color: #0ABF75
+    color: #4b22f4;
 }
 
 .collection a.collection-item:not(.active):hover {
@@ -7717,7 +7723,7 @@ th {
 
 .secondary-content {
     float: right;
-    color: #0ABF75
+    color: #4b22f4;
 }
 
 span.badge {
@@ -7737,7 +7743,7 @@ span.badge.new {
     font-weight: 300;
     font-size: 0.8rem;
     color: #fff;
-    background-color: #0ABF75;
+    background-color: #4b22f4;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -8863,7 +8869,7 @@ footer.page-footer .footer-copyright {
     position: relative;
     overflow: hidden;
     margin: 0.5rem 0 1rem 0;
-    background-color: #24385b;
+    background-color: #0c1633;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -9151,8 +9157,9 @@ footer.page-footer .footer-copyright {
 .tabs {
     position: relative;
     height: 60px;
-    background-color: #34515e;
+    background-color: #0c1633;
     margin: 0 auto;
+    border-color: #0059bc;
     width: 100%;
     white-space: nowrap
 }
@@ -9194,7 +9201,7 @@ footer.page-footer .footer-copyright {
     position: absolute;
     bottom: 0;
     height: 5px;
-    background-color: #6f4ef6;
+    background-color: #121f3d;
     will-change: left, right
 }
 
@@ -16417,11 +16424,11 @@ a.disabled {
 }
 
 .horizontal_nav li:hover {
-    color: #0ABF75
+    color: #e9e9ce;
 }
 
 .horizontal_nav li:hover path {
-    fill: #0ABF75
+    fill: #e9e9ce;
 }
 
 .pull-right {
@@ -18694,7 +18701,7 @@ a.custom-light-blue:hover {
 }
 
 .green-flat-text {
-    color: #e9e9ce !important
+    color: #1d99ed !important
 }
 
 .green-flat-text-hover {
@@ -18702,7 +18709,7 @@ a.custom-light-blue:hover {
 }
 
 .green-flat-text-hover:hover {
-    color: #0ABF75 !important
+    color: #FF1744 !important
 }
 
 a.green-flat:hover {
@@ -20853,7 +20860,8 @@ a.custom-grey:hover {
 }
 
 .blue.darken-2 {
-    background-color: #0d1a2e;
+    
+    background-image: linear-gradient(86deg, rgba(1,43,73,1) 0%, rgba(1,37,66,1) 49%, rgba(1,12,46,1) 100%);
 }
 
 
@@ -25042,7 +25050,7 @@ a.custom-grey:hover {
 }
 
 .grey {
-    background-color: #75e900 !important
+    background-color: #58cc02 !important
 }
 
 .grey-hover:hover {
@@ -25107,7 +25115,7 @@ a.custom-grey:hover {
 }
 
 .grey-text.text-darken-2 {
-    color: #6f4ef6 !important
+    color: #1d9bf0 !important
 }
 
 .grey-text-hover.text-darken-2 {
@@ -25179,7 +25187,7 @@ a.custom-grey:hover {
 }
 
 .new-black-text.text-lighten-3 {
-    color: #509BF5 !important
+    color: #4b22f4 !important
 }
 
 .new-black-text-hover.text-lighten-3 {
@@ -25404,7 +25412,7 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #1c313a;
+    background-color: #0c1633;
 }
 
 .white-text {
@@ -25420,7 +25428,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #E9E9E9;
+    color: #a6a5a5;
 }
 
 .login-section:not(.active) {
@@ -25822,7 +25830,7 @@ button {
 }
 
 .card {
-    border-radius: 4px
+    border-radius: 12px
 }
 
 .article .body {
@@ -25871,7 +25879,7 @@ button {
 }
 
 .quick-filters .indicator {
-    background-color: #0ABF75;
+    background-color: #ffff00;
     height: 4px
 }
 
@@ -27236,7 +27244,7 @@ nav.fixed {
 }
 
 .paragraph a {
-    color: #586efc !important
+    color: #1d99ed !important
 }
 
 .paragraph ul {
@@ -27612,7 +27620,7 @@ svg {
 
 .two-buttons-pagination a:hover,
 .two-buttons-pagination span:hover {
-    background-color: #0ABF75
+    background-color: #ffff00;
 }
 
 .video-container {
@@ -28025,7 +28033,7 @@ table.schedule .item {
 
 .radius-3d-btn--green {
     padding: 10px 15px;
-    background-color: #0ABF75;
+    background-color: ;
     border-radius: 10px;
     box-shadow: 1px 1px 0px 1px #067648
 }
@@ -28178,7 +28186,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #8f97a3;
+    background: #4b22f4;
     position: relative
 }
 
@@ -28189,7 +28197,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #8f97a3;
+    background: #4b22f4;
     content: '';
     position: absolute;
     left: 0;
