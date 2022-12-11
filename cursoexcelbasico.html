@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Usoftec | Cursos - Microsoft Excel básico para principiantes</title>
+        <!--Ceo y posicionamiento web-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="author" content="Usoftec"/>
+        <meta name="title" content="Usoftec" >
+        <meta name="description" content="Aprende software de ingeniería, ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
+        <meta name="disribution" content="global"/>
+        <meta name="copyright" content="Copyright 2022 by Usoftec"/>
+        <meta name="theme-color" content="#34515e"/>
+        <!--###########################-->
+        <!--Targetas de Twitter-->
+        <meta name="twitter:title" content="Usoftec"/>
+        <meta name="twitter:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
+        <meta name="twitter:card" content="photo"/>
+        <meta name="twitter:site" content="@Usoftec"/>
+        <meta name="twitter:url" content="https://www.usoftec.com" />
+        <meta name="twitter:image" content="https://usoftec.github.io/Prueva/img/logousoftec.png"/>
+        <!--###################-->
+        <!-- Open Graph data Facebook -->
+        <meta property="og:title" content="Usoftec"/>
+        <meta property="og:description" content="Aprende software de ingeniería ofimática y diseño gráfico a cualquier hora y en cualquier lugar"/>
+        <meta property="og:type" content="Article" />
+        <meta property="og:site_name" content="Usoftec"/>
+        <meta property="og:url" content="https://www.usoftec.com" />
+        <meta property="og:image" content="https://usoftec.github.io/Prueva/img/logousoftec.png"/>
+        <!--###########################--> 
+        <!--Fuentes, estylos, javascript y favicon-->
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
+        <link rel="stylesheet" media="all" href="css/stylos.css"/>
+        <link rel="stylesheet" href="css/iconos/iconos.css"/>
+        <link rel="canonical" href="https://www.usoftec.com"/>
+        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"/>
+        <script src="js/main.js" data-turbolinks-track="true"></script>
+        <!--#######################################-->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <!--#######################################-->
+    </head>
+    <body style="background: #12203d;">
+        <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
+            <div>
+                <nav>
+                    <ul class='no-list collection main-nav'>
+                        <div class='collection-item no-padding-large user-nav' style='font-size:1.1em;'>
+                            <a class="grey-hover" href="index.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Inicio</li>
+                            </a>
+                            <a class="grey-hover" href="cursos.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Cursos</li>
+                            </a>
+                            <a href="blog.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
+                            </a>
+                            <a href="talleres.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Talleres</li>
+                            </a>
+                            <a href="https://www.paypal.com/donate/?hosted_button_id=3MN8ACLBBFVFA" target="_blank">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Donar</li>
+                            </a>
+                        </div>
+                    </ul>
+                </nav>    
+            </div>
+        </div>
+        <nav class='grey darken-4 fixed new-black-text text-lighten-3 z-depth-1' data-turbolinks-permanent='true' id='main-nav'>
+            <div class="row center-xs relative large-padding">
+                <div class=' main-container col-xs-12 col-sm-11 col-md-10' stlye=''>
+                    <div class='box'>
+                        <button aria-label='toggle menu' class='tcon tcon-menu--xbutterfly absolute' id='open_user_data' style='left:1em;top:1.7em;' type='button'>
+                            <span aria-hidden='true' class='tcon-menu__lines'></span>
+                            <span class='tcon-visuallyhidden'></span>
+                        </button>
+                        <ul class='no-list row middle-xs'>
+                            <div class='col-xs-2 hidden-bg'></div>
+                            <div class='no-padding text-left col-xs-5 col-sm-2 col-md-4'>
+                                <div class='box'>
+                                    <a href="index.html"><img height="45" src="img/usoftec.png" alt="Logotipo" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class=' no-padding text-right col-xs-5"                                                                                                                                                                                                              col-sm-9 col-md-8'>
+                                <div class='box'>
+                                    <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
+                                        <a class="hidden-xs" href="index.html">
+                                            <li class='inline-block'>
+                                                <i class='icon-home'></i>
+                                                <p class='no-margin be-small'>Inicio</p>
+                                            </li>
+                                        </a>
+                                        <a class="hidden-xs" href="cursos.html">
+                                            <li class='inline-block'>
+                                                <i class='icon-play'></i>
+                                                <p class='no-margin be-small'>Cursos</p>
+                                            </li>
+                                        </a>
+                                        <a class="hidden-xs" href="blog.html">
+                                            <li class='inline-block'>
+                                                <i class="icon-book"></i>
+                                                <p class='no-margin be-small'>Blog</p>
+                                            </li>
+                                        </a> 
+                                        <a class="hidden-xs" href="talleres.html">
+                                            <li class='inline-block'>
+                                                <i class="icon-file-text2"></i>
+                                                <p class='no-margin be-small'>Talleres</p>
+                                            </li>
+                                        </a> 
+                                        <a class="hidden-xs" href="https://www.paypal.com/donate/?hosted_button_id=3MN8ACLBBFVFA" target="_blank">
+                                            <li class='inline-block'>
+                                                <i class="icon-credit-card"></i>
+                                                <p class='no-margin be-small'>Donar</p>
+                                            </li>
+                                        </a>    
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="body" title="bag">
+            <header class='blue darken-2 white-text big-padding' style='padding-bottom:70px;'>
+                <div class="row center-xs text-left ">
+                    <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                        <div class='box' >
+                            <div class='row middle-xs center-xs text-left top-space'>
+                                <div class=' col-xs-12 col-sm-6 col-md-8 col-lg-7'>     
+                                    <div style="position:relative; overflow:hidden; padding-bottom:56.25%"> 
+                                        <iframe src="https://onedrive.live.com/embed?cid=2A99FBA2431AF684&resid=2A99FBA2431AF684%214888&authkey=AFvaPTZMk0YNNCM" width="100%" height="100%" frameborder="0" scrolling="auto" title="Curso QGIS - Sesión 01" style="position:absolute;" allowfullscreen></iframe> 
+                                    </div>    
+                                </div>         
+                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''> 
+                                    <div class='box' style="background: #1c4f7c;">
+                                        <a href="">
+                                            <a href="cursoexcelbasico.html">
+                                                <img class="imagendecursos" src="img/postcursoexcel.png" alt="">
+                                            </a>
+                                        </a>
+                                    </div>
+                                    <div class='white large-padding body'>
+                                        <h2 class='black-text no-margin normal-line-height'>
+                                            <center><a href="cursoexcelbasico.html">Accede gratuitamente a este curso</a></center>
+                                        </h2>
+                                        <center>
+                                            <a class="botonschooltec03" href="cursoexcelbasicosesion01.html">
+                                                <color style="color: #ffffff; font-weight: bold;">Iniciar gratis</color>
+                                            </a>
+                                        </center>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>    
+            <section style='margin-top:-35px' >
+                <div class="row center-xs text-left ">
+                    <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                        <div class='box'>
+                            <div class='card'>
+                                <ul class='tabs be-medium be-normal-xs' style='border-color: #12203d;'>
+                                    <li class='tab uppercase active'>
+                                        <a class='green-flat-text'  href="cursoqgis.html" >Excel básico para principiantes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <article class='card text-left'>
+                                <header class='border-bottom large-padding' style='border-color: #12203d;'>
+                                    <p class='upercase bold grey-text text-darken-2 no-margin be-medium normal-line-height'>Acerca del curso</p>
+                                </header>
+                                <section class='large-padding'>
+                                    <p style="color: #b3b3b3;" align="justify">QGIS  es una aplicación de sistema de información geográfica (GIS) de escritorio multiplataforma gratuita y de código abierto que admite la visualización, edición y análisis de datos geoespaciales.</p>
+                                </section>
+                            </article>
+                            <article class='card text-left'>
+                                <header class='border-bottom large-padding' style='border-color: #12203d;'>
+                                    <p class='upercase bold grey-text text-darken-2 no-margin be-medium normal-line-height'>Temario del curso</p>
+                                </header>
+                                <section class='large-padding' >
+                                    <ul class='large-padding no-margin' style="color: #e9e9ce;">
+                                        <li class='top-space'>
+                                            <a href="cursoqgis.html">
+                                                <div class='row slim middle-xs responsive-fluid'>
+                                                    <div class='col-xs'>
+                                                        <div class='box'>PRESENTACIÓN</div>
+                                                    </div>
+                                                    <div class='text-left hidden-xs col-xs-3'>
+                                                        <div class='box'>
+                                                            <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                            <span class=' '>03m 03s</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=' col-xs-1'>
+                                                        <div class='box'>
+                                                            <i class='icon-play'></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class='top-space'>
+                                            <a href="cursoqgissesion01.html">
+                                                <div class='row slim middle-xs responsive-fluid' style="color: #ffffff">
+                                                    <div class='col-xs'>
+                                                        <div class='box'>01) Interfaz del software QGIS </div>
+                                                    </div>
+                                                    <div class='text-left hidden-xs col-xs-3'>
+                                                        <div class='box'>
+                                                            <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                            <span class=' '>00m 10s</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=' col-xs-1'>
+                                                        <div class='box'>
+                                                            <i class='icon-play'></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class='top-space'>
+                                            <a href="cursowordsesion02.html">
+                                                <div class='row slim middle-xs responsive-fluid' style="color: #ffffff">
+                                                    <div class='col-xs'>
+                                                        <div class='box'>02) Maratón Word</div>
+                                                    </div>
+                                                    <div class='text-left hidden-xs col-xs-3'>
+                                                        <div class='box'>
+                                                            <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                            <span class=' '>240m 16s</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=' col-xs-1'>
+                                                        <div class='box'>
+                                                            <i class='icon-play'></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class='top-space'>
+                                            <a href="cursowordsesion02.html">
+                                                <div class='row slim middle-xs responsive-fluid' style="color: #ffffff">
+                                                    <div class='col-xs'>
+                                                        <div class='box'>02) Maratón Word</div>
+                                                    </div>
+                                                    <div class='text-left hidden-xs col-xs-3'>
+                                                        <div class='box'>
+                                                            <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                            <span class=' '>240m 16s</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=' col-xs-1'>
+                                                        <div class='box'>
+                                                            <i class='icon-play'></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class='top-space'>
+                                            <a href="cursowordsesion02.html">
+                                                <div class='row slim middle-xs responsive-fluid' style="color: #ffffff">
+                                                    <div class='col-xs'>
+                                                        <div class='box'>02) Maratón Word</div>
+                                                    </div>
+                                                    <div class='text-left hidden-xs col-xs-3'>
+                                                        <div class='box'>
+                                                            <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                            <span class=' '>240m 16s</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=' col-xs-1'>
+                                                        <div class='box'>
+                                                            <i class='icon-play'></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class='top-space'>
+                                            <a href="cursowordsesion02.html">
+                                                <div class='row slim middle-xs responsive-fluid' style="color: #ffffff">
+                                                    <div class='col-xs'>
+                                                        <div class='box'>02) Maratón Word</div>
+                                                    </div>
+                                                    <div class='text-left hidden-xs col-xs-3'>
+                                                        <div class='box'>
+                                                            <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                            <span class=' '>240m 16s</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=' col-xs-1'>
+                                                        <div class='box'>
+                                                            <i class='icon-play'></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class='top-space'>
+                                            <a href="cursowordsesion02.html">
+                                                <div class='row slim middle-xs responsive-fluid' style="color: #ffffff">
+                                                    <div class='col-xs'>
+                                                        <div class='box'>02) Maratón Word</div>
+                                                    </div>
+                                                    <div class='text-left hidden-xs col-xs-3'>
+                                                        <div class='box'>
+                                                            <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                            <span class=' '>240m 16s</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=' col-xs-1'>
+                                                        <div class='box'>
+                                                            <i class='icon-play'></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class='top-space'>
+                                            <a href="cursowordsesion02.html">
+                                                <div class='row slim middle-xs responsive-fluid' style="color: #ffffff">
+                                                    <div class='col-xs'>
+                                                        <div class='box'>02) Maratón Word</div>
+                                                    </div>
+                                                    <div class='text-left hidden-xs col-xs-3'>
+                                                        <div class='box'>
+                                                            <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                            <span class=' '>240m 16s</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=' col-xs-1'>
+                                                        <div class='box'>
+                                                            <i class='icon-play'></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class='top-space'>
+                                            <a href="cursowordsesion02.html">
+                                                <div class='row slim middle-xs responsive-fluid' style="color: #ffffff">
+                                                    <div class='col-xs'>
+                                                        <div class='box'>02) Maratón Word</div>
+                                                    </div>
+                                                    <div class='text-left hidden-xs col-xs-3'>
+                                                        <div class='box'>
+                                                            <i class='icon-clock' style='font-size:1.2em;'></i>&nbsp;
+                                                            <span class=' '>240m 16s</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=' col-xs-1'>
+                                                        <div class='box'>
+                                                            <i class='icon-play'></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                                                                                                                     
+                                    </ul>
+                                </section>
+                            </article>
+                            <article class='card text-left top-space'>
+                                <header class='border-bottom large-padding' style='border-color: #12203d;'>
+                                    <p class='upercase bold grey-text text-darken-2 no-margin be-medium normal-line-height'>Notas del tutor</p>
+                                </header>
+                                <section class='large-padding'style='border-color:rgb(53, 54, 58);' >
+                                    <div class='paragraph'>
+                                        <a href="" download>Ninguna</a>
+                                    </div>
+                                </section>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="top-30">
+                <footer class='footer grey darken-4 big-padding white-text'>
+                    <div class="row center-xs text-left ">
+                        <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                            <div class='box'>
+                                <div class='row center-xs text-left'>
+                                    <div class='last-xs first-md col-xs-6 col-sm-12 col-md-3 col-lg-2'>
+                                        <div class='box'><img width="150" src="img/usoftec.png" alt="" /></div>
+                                    </div>
+                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Contenido</p>
+                                            <ul>
+                                                <li><a href="cursos.html">Cursos</a></li>
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="talleres.html">Talleres</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Cursos</p>
+                                            <ul>
+                                                <li><a href="ingenieria.html">Ingeniería</a></li>
+                                                <li><a href="ofimatica.html">Ofimática</a></li>
+                                                <li><a href="diseñografico.html">Diseño</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Nosotros</p>
+                                            <ul>
+                                                <li><a href="equipo.html">Equipo</a></li>
+                                                <li><a href="contacto.html">Contacto</a></li>
+                                                <li><a href="info.html">Información</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class='social col-xs-6 col-sm-3 col-md-6 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Redes sociales</p>
+                                            <a href="https://twitter.com/Usoftec" target="_blank">
+                                                <img height="25" src="img/twitter.png" alt="twitter" />
+                                            </a>
+                                            <a href="https://www.facebook.com/Usoftec" target="_blank">
+                                                <img height="25" src="img/facebook.png" alt="Facebook"/>
+                                            </a>
+                                            <a href="https://instagram.com/Usoftec" target="_blank">
+                                                <img height="25" src="img/instagram.png" alt="twitter"/>
+                                            </a>
+                                            <a href="https://www.youtube.com/channel/UCZli6TQ7vIYh94IvWfx1n_g" target="_blank">
+                                                <img height="25" src="img/youtube.png" alt="youtube"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </body>
+</html>
