@@ -58,7 +58,7 @@
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
     color:none;
-    border: 1px solid #4b22f4;
+    border: 1px solid #6f75ff;
 }
 
 .botonschooltec03{
@@ -70,7 +70,7 @@
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
     color: #ffffff;
-    border: 2px solid #4b22f4;
+    border: 2px solid #6f75ff;
 }
 
 .imagendecursos{
@@ -98,7 +98,7 @@
 }
 
 .portadaindex{
-    background-image: linear-gradient(86deg, rgba(1,43,73,1) 0%, rgba(1,37,66,1) 49%, rgba(1,12,46,1) 100%);
+    background-image: linear-gradient(86deg, rgb(18, 36, 92) 0%, rgb(4, 46, 80) 49%, rgb(4, 52, 87) 100%);
     
 }
 
@@ -6702,7 +6702,7 @@ a.custom-grey:hover {
 }
 
 .grey.darken-4 {
-    background-color: #0c1633!important
+    background-color: #001848!important
 }
 
 .grey-hover.darken-4-hover:hover {
@@ -8869,7 +8869,7 @@ footer.page-footer .footer-copyright {
     position: relative;
     overflow: hidden;
     margin: 0.5rem 0 1rem 0;
-    background-color: #0c1633;
+    background-color: #213d5c;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -25187,7 +25187,7 @@ a.custom-grey:hover {
 }
 
 .new-black-text.text-lighten-3 {
-    color: #4b22f4 !important
+    color: #6f75ff !important
 }
 
 .new-black-text-hover.text-lighten-3 {
@@ -25412,7 +25412,7 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #0c1633;
+    background-color: #213d5c;
 }
 
 .white-text {
@@ -25428,7 +25428,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #a6a5a5;
+    color: #e9e9e9;
 }
 
 .login-section:not(.active) {
@@ -28186,7 +28186,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #4b22f4;
+    background: #6f75ff;
     position: relative
 }
 
@@ -28197,7 +28197,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #4b22f4;
+    background: #6f75ff;
     content: '';
     position: absolute;
     left: 0;
