@@ -58,7 +58,7 @@
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
     color:none;
-    border: 1px solid #6f75ff;
+    border: 1px solid #4b22f4;
 }
 
 .botonschooltec03{
@@ -6702,7 +6702,7 @@ a.custom-grey:hover {
 }
 
 .grey.darken-4 {
-    background-color: #001848!important
+    background-color: #132a58!important
 }
 
 .grey-hover.darken-4-hover:hover {
@@ -9157,7 +9157,7 @@ footer.page-footer .footer-copyright {
 .tabs {
     position: relative;
     height: 60px;
-    background-color: #0c1633;
+    background-color: #121f3d;
     margin: 0 auto;
     border-color: #0059bc;
     width: 100%;
@@ -20861,7 +20861,7 @@ a.custom-grey:hover {
 
 .blue.darken-2 {
     
-    background-image: linear-gradient(86deg, rgba(1,43,73,1) 0%, rgba(1,37,66,1) 49%, rgba(1,12,46,1) 100%);
+    background-image: linear-gradient( 86deg, rgb(18, 36, 92) 0%, rgb(4, 46, 80) 49%, rgb(4, 52, 87) 100%);
 }
 
 
@@ -25187,7 +25187,7 @@ a.custom-grey:hover {
 }
 
 .new-black-text.text-lighten-3 {
-    color: #6f75ff !important
+    color: #00adff !important
 }
 
 .new-black-text-hover.text-lighten-3 {
