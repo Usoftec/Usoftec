@@ -5,7 +5,7 @@
 .portada__titulo {
     position: center;
     margin-top: 90px; 
-    color: #E9E9E9; 
+    color: #fff; 
     font-weight: bold; 
     font-size: 40px; 
     font-family: 'Bitter', serif;
@@ -88,7 +88,7 @@
 }
 
 .index001 {
-    color: #1d9bf0;
+    color: #9c86f9;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bitter', serif;
@@ -98,7 +98,7 @@
 }
 
 .portadaindex{
-    background-image: linear-gradient( 86deg, rgb(23, 45, 109) 0%, rgb(7, 58, 100) 49%, rgb(7, 62, 100) 100%);
+    background-image: linear-gradient( 86deg, #10143f 0%, #0d123f 49%, #0a0f36 100%);
     
 }
 
@@ -6702,7 +6702,7 @@ a.custom-grey:hover {
 }
 
 .grey.darken-4 {
-    background-color: #132a58!important
+    background-color: #121f3d!important
 }
 
 .grey-hover.darken-4-hover:hover {
@@ -8869,7 +8869,7 @@ footer.page-footer .footer-copyright {
     position: relative;
     overflow: hidden;
     margin: 0.5rem 0 1rem 0;
-    background-color: #213d5c;
+    background-color: #121f3d;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -18701,7 +18701,7 @@ a.custom-light-blue:hover {
 }
 
 .green-flat-text {
-    color: #1d99ed !important
+    color: #9c86f9 !important
 }
 
 .green-flat-text-hover {
@@ -25050,7 +25050,7 @@ a.custom-grey:hover {
 }
 
 .grey {
-    background-color: #58cc02 !important
+    background-color: #049bff !important
 }
 
 .grey-hover:hover {
@@ -25115,7 +25115,7 @@ a.custom-grey:hover {
 }
 
 .grey-text.text-darken-2 {
-    color: #1d9bf0 !important
+    color: #9c86f9 !important
 }
 
 .grey-text-hover.text-darken-2 {
@@ -25187,7 +25187,7 @@ a.custom-grey:hover {
 }
 
 .new-black-text.text-lighten-3 {
-    color: #00adff !important
+    color: #6f4ef6 !important
 }
 
 .new-black-text-hover.text-lighten-3 {
@@ -25412,7 +25412,7 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #213d5c;
+    background-color: #121f3d;
 }
 
 .white-text {
@@ -28186,7 +28186,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #6f75ff;
+    background: #6f4ef6;
     position: relative
 }
 
@@ -28197,7 +28197,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #6f75ff;
+    background: #6f4ef6;
     content: '';
     position: absolute;
     left: 0;
