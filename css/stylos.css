@@ -88,7 +88,7 @@
 }
 
 .index001 {
-    color: #9c86f9;
+    color: #049bff;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bitter', serif;
@@ -98,7 +98,7 @@
 }
 
 .portadaindex{
-    background-image: linear-gradient( 86deg, #10143f 0%, #0d123f 49%, #0a0f36 100%);
+    background-image: linear-gradient( 86deg, #121f3d 0%, #0c1633 49%, #121f3d 100%);
     
 }
 
@@ -8869,7 +8869,7 @@ footer.page-footer .footer-copyright {
     position: relative;
     overflow: hidden;
     margin: 0.5rem 0 1rem 0;
-    background-color: #121f3d;
+    background-color: #24385b;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -25412,7 +25412,7 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #121f3d;
+    background-color: #24385b;
 }
 
 .white-text {
