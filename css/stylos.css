@@ -5,7 +5,7 @@
 .portada__titulo {
     position: center;
     margin-top: 90px; 
-    color: #fff; 
+    color: #1877f2; 
     font-weight: bold; 
     font-size: 40px; 
     font-family: 'Bitter', serif;
@@ -14,7 +14,7 @@
 .portada__descripsion {
     position: center;
     margin-top: -20px; 
-    color: #d1cfcf; 
+    color: #ffffff; 
     font-weight: bold; 
     font-size: 28px; 
     font-family: 'Bitter', serif;
@@ -46,22 +46,46 @@
     border-radius: 12px; /*bordes redondos*/
     font-size: 10px;
     color: #ffffff;
-    border: 1px solid #4b22f4;
+    border: 1px solid #1877f2;
 }
 
 .botonschooltec02{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #4b22f4;
+    background-color: #1877f2;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
     color:none;
-    border: 1px solid #4b22f4;
+    border: 1px solid #1877f2;
 }
 
 .botonschooltec03{
+    padding: 15px; /*espacio alrededor texto*/
+    background-color: #42b72a;
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 12px; /*bordes redondos*/
+    font-size: 15px;
+    color: #ffffff;
+    border: 2px solid #42b72a;
+}
+
+.botonschooltec04{
+    padding: 15px; /*espacio alrededor texto*/
+    background-color: #1877f2;
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 12px; /*bordes redondos*/
+    font-size: 15px;
+    color:none;
+    border: 2px solid #1877f2;
+}
+
+.botonschooltec05{
     padding: 15px; /*espacio alrededor texto*/
     background-color: none;
     text-decoration: none; /*decoración texto*/
@@ -69,8 +93,8 @@
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
-    color: #ffffff;
-    border: 2px solid #6f75ff;
+    color:none;
+    border: 3px solid #1877f2;
 }
 
 .imagendecursos{
@@ -98,7 +122,7 @@
 }
 
 .portadaindex{
-    background-image: linear-gradient( 86deg, #121f3d 0%, #0c1633 49%, #121f3d 100%);
+    background-image: linear-gradient( 86deg, #c3d6ec 0%, #b5ccf0 49%, #c5d5eb 100%);
     
 }
 
@@ -6702,7 +6726,7 @@ a.custom-grey:hover {
 }
 
 .grey.darken-4 {
-    background-color: #121f3d!important
+    background-color: #ededed!important
 }
 
 .grey-hover.darken-4-hover:hover {
@@ -8511,7 +8535,7 @@ html {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: rgb(172, 170, 170);
+    color: #393935;
 }
 
 @media only screen and (min-width: 0) {
@@ -8869,7 +8893,7 @@ footer.page-footer .footer-copyright {
     position: relative;
     overflow: hidden;
     margin: 0.5rem 0 1rem 0;
-    background-color: #24385b;
+    background-color: #f1f1f1;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -16424,11 +16448,11 @@ a.disabled {
 }
 
 .horizontal_nav li:hover {
-    color: #e9e9ce;
+    color: #fff;
 }
 
 .horizontal_nav li:hover path {
-    fill: #e9e9ce;
+    fill: #fff;
 }
 
 .pull-right {
@@ -18701,7 +18725,7 @@ a.custom-light-blue:hover {
 }
 
 .green-flat-text {
-    color: #9c86f9 !important
+    color: #1877f2 !important
 }
 
 .green-flat-text-hover {
@@ -25050,7 +25074,7 @@ a.custom-grey:hover {
 }
 
 .grey {
-    background-color: #049bff !important
+    background-color: #42b72a !important
 }
 
 .grey-hover:hover {
@@ -25187,7 +25211,7 @@ a.custom-grey:hover {
 }
 
 .new-black-text.text-lighten-3 {
-    color: #6f4ef6 !important
+    color: #1877f2 !important
 }
 
 .new-black-text-hover.text-lighten-3 {
@@ -25195,7 +25219,7 @@ a.custom-grey:hover {
 }
 
 .new-black-text-hover.text-lighten-3:hover {
-    color: #BED2D0 !important
+    color: #fff !important
 }
 
 .new-black.lighten-2 {
@@ -25412,11 +25436,11 @@ a.custom-grey:hover {
 }
 
 .white {
-    background-color: #24385b;
+    background-color: #f1f1f1;
 }
 
 .white-text {
-    color: rgb(172, 170, 170);
+    color: #85857e;
 }
 
 .white-text-hover:hover {
@@ -25428,7 +25452,7 @@ a.custom-grey:hover {
 }
 
 .black-text {
-    color: #e9e9e9;
+    color: #393935;
 }
 
 .login-section:not(.active) {
@@ -25533,7 +25557,7 @@ a.custom-grey:hover {
     background-image: url("img/portada.png");
     background-size: cover;
     background-position: center;
-    height: 90vh
+    height: 80vh
     
 }
 
@@ -28186,7 +28210,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #6f4ef6;
+    background: #1877f2;
     position: relative
 }
 
@@ -28197,7 +28221,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #6f4ef6;
+    background: #1877f2;
     content: '';
     position: absolute;
     left: 0;
