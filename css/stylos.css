@@ -63,7 +63,7 @@
 
 .botonschooltec03{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #42b72a;
+    background-color: #5eda44;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -112,7 +112,7 @@
 }
 
 .index001 {
-    color: #049bff;
+    color: #1877f2;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bitter', serif;
@@ -25139,7 +25139,7 @@ a.custom-grey:hover {
 }
 
 .grey-text.text-darken-2 {
-    color: #9c86f9 !important
+    color: #1877f2 !important
 }
 
 .grey-text-hover.text-darken-2 {
@@ -27268,7 +27268,7 @@ nav.fixed {
 }
 
 .paragraph a {
-    color: #E9E9E9 !important
+    color: #393935 !important
 }
 
 .paragraph ul {
