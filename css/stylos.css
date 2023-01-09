@@ -3,27 +3,27 @@
 #########################**/
 
 .portada__titulo {
-    margin-left: -1020px;
-    margin-top: 80px; 
-    color: #1877f2; 
+    
+    margin-top: 60px; 
+    color: #ffffff; 
     font-weight: bold; 
     font-size: 50px; 
     font-family: 'Bitter', serif;
 }
 
 .portada__descripsion {
-    margin-left: -550px;
-    margin-top: -20px; 
-    color: #6b6b6b; 
+    
+    margin-top: -50px; 
+    color: #ebe1e1; 
     font-weight: bold; 
-    font-size: 35px; 
+    font-size: 30px; 
     font-family: 'Bitter', serif;
 }
 
 .portada__descripsion1 {
-    margin-left: -840px;
+    
     margin-top: -20px; 
-    color: #6b6b6b; 
+    color: #ffffff; 
     font-weight: bold; 
     font-size: 35px; 
     font-family: 'Bitter', serif;
@@ -94,9 +94,9 @@
 }
 
 .botonschooltec05{
-    margin-left: -980px;
+  
     padding: 15px; /*espacio alrededor texto*/
-    background-color: none;
+    background-color: #1877f2;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -25449,7 +25449,7 @@ a.custom-grey:hover {
 }
 
 .white-text {
-    color: #85857e;
+    color: #ffffff;
 }
 
 .white-text-hover:hover {
