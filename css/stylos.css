@@ -4,7 +4,7 @@
 
 .portada__titulo {
     
-    margin-top: 50px; 
+    margin-top: 10px; 
     color: #ffffff; 
     font-weight: bold; 
     font-size: 50px; 
@@ -71,14 +71,14 @@
 
 .botonschooltec03{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #5eda44;
+    background-color: none;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
-    color: #ffffff;
-    border: 2px solid #42b72a;
+    color: none;
+    border: 2px solid #ffffff;
 }
 
 .botonschooltec04{
@@ -96,14 +96,14 @@
 .botonschooltec05{
   
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #1877f2;
+    background-color: #ffffff;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
     color:none;
-    border: 3px solid #1877f2;
+    border: 3px solid #ffffff;
 }
 
 .imagendecursos{
@@ -131,7 +131,7 @@
 }
 
 .portadaindex{
-    background-image: linear-gradient(90deg, rgba(35,70,240,1) 0%, rgba(60,166,221,1) 49%, rgba(49,104,240,1) 100%);
+    background-image: linear-gradient(90deg, #3417aa 0%, #4b22f4 49%, #6f4ef6 100%);
     
 }
 
@@ -25566,7 +25566,7 @@ a.custom-grey:hover {
     background-image: url("img/portada.png");
     background-size: cover;
     background-position: center;
-    height: 80vh
+    height: 90vh
     
 }
 
