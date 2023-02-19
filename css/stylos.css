@@ -25449,7 +25449,7 @@ a.custom-grey:hover {
 }
 
 .white-text {
-    color: #686767;
+    color: #fff;
 }
 
 .white-text-hover:hover {
@@ -27252,7 +27252,7 @@ nav.fixed {
 .paragraph {
     line-height: 1.9;
     padding: 1em 0;
-    color: #E9E9E9;
+    color: #000000;
     font-size: 16px;
     text-align: justify
 }
