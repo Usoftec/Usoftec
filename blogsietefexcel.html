@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Usoftec | Blog - 7 funciones básicas de Microsoft Excel para volverse mas productivo</title>
+        <!--Ceo y posicionamiento web-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="author" content="Usoftec"/>
+        <meta name="title" content="Usoftec | Blog - 7 funciones básicas de Microsoft Excel para volverse mas productivo" >
+        <meta name="description" content="Actualidad, artículos y talleres sobre desarrollo web, ofimática y manejo de software"/>
+        <meta name="disribution" content="global"/>
+        <meta name="copyright" content="Copyright 2023 by Usoftec"/>
+        <meta name="theme-color" content="#ededed"/>
+        <!--###########################-->
+        <!--Targetas de Twitter-->
+        <meta name="twitter:title" content="Usoftec | Blog - 7 funciones básicas de Microsoft Excel para volverse mas productivo"/>
+        <meta name="twitter:description" content="Actualidad, artículos y talleres sobre desarrollo web, ofimática y manejo de software"/>
+        <meta name="twitter:card" content="photo"/>
+        <meta name="twitter:site" content="@Usoftec"/>
+        <meta name="twitter:url" content="https://usoftec.com" />
+        <meta name="twitter:image" content="https://usoftec.com/img/cursofundamentosdeexcel.png"/>
+        <!--###################-->
+        <!-- Open Graph data Facebook -->
+        <meta property="og:title" content="Usoftec | Blog - 7 funciones básicas de Microsoft Excel para volverse mas productivo"/>
+        <meta property="og:description" content="Actualidad, artículos y talleres sobre desarrollo web, ofimática y manejo de software"/>
+        <meta property="og:type" content="Article" />
+        <meta property="og:site_name" content="Usoftec"/>
+        <meta property="og:url" content="https://usoftec.com" />
+        <meta property="og:image" content="https://usoftec.com/img/cursofundamentosdeexcel.png"/>
+        <!--###########################--> 
+        <!--Fuentes, estylos, javascript y favicon-->
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
+        <link rel="stylesheet" media="all" href="css/stylos.css"/>
+        <link rel="stylesheet" href="css/iconos/iconos.css"/>
+        <link rel="canonical" href="https://usoftec.com"/>
+        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"/>
+        <script src="js/main.js" data-turbolinks-track="true"></script>
+        <!--#######################################-->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-251773407-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-251773407-1');
+        </script>
+        <!--#######################################-->
+    </head>
+<body style="background-image: linear-gradient( 86deg, #fff 0%, #fff 49%, #fff 100%);">
+    <!--SDK de Facebook comentarios-->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.12';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--###############################-->
+    <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
+        <div>
+            <nav>
+                <ul class='no-list collection main-nav'>
+                    <div class='collection-item no-padding-large user-nav' style='font-size:1.1em;'>
+                        <a class="grey-hover" href="index.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Inicio</li>
+                        </a>
+                        <a class="grey-hover" href="cursos.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Cursos</li>
+                        </a>
+                        <a href="blog.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
+                        </a>
+                        <a href="talleres.html">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Talleres</li>
+                        </a>
+                        <a href="https://www.paypal.com/paypalme/usoftec" target="_blank">
+                            <li class='top-space row middle-xs grey-hover lighten-3-hover'>Donar</li>
+                        </a>
+                    </div>
+                </ul>
+            </nav>  
+        </div>
+    </div>
+    <nav class='grey darken-4 fixed new-black-text text-lighten-3 z-depth-1' data-turbolinks-permanent='true' id='main-nav'>
+        <div class="row center-xs relative large-padding">
+            <div class=' main-container col-xs-12 col-sm-11 col-md-10' stlye=''>
+                <div class='box'>
+                    <button aria-label='toggle menu' class='tcon tcon-menu--xbutterfly absolute' id='open_user_data' style='left:1em;top:1.7em;' type='button'>
+                        <span aria-hidden='true' class='tcon-menu__lines'></span>
+                        <span class='tcon-visuallyhidden'></span>
+                    </button>
+                    <ul class='no-list row middle-xs'>
+                        <div class='col-xs-2 hidden-bg'></div>
+                        <div class='no-padding text-left col-xs-5 col-sm-2 col-md-4'>
+                            <div class='box'>
+                                <a href="index.html"><img height="45" src="img/usoftec.png" alt="Logotipo" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class=' no-padding text-right col-xs-5"                                                                                                                                                                                                              col-sm-9 col-md-8'>
+                            <div class='box'>
+                                <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
+                                    <a class="hidden-xs" href="index.html">
+                                        <li class='inline-block'>
+                                            <i class='icon-home'></i>
+                                            <p class='no-margin be-small'>Inicio</p>
+                                        </li>
+                                    </a>
+                                    <a class="hidden-xs" href="cursos.html">
+                                        <li class='inline-block'>
+                                            <i class='icon-play'></i>
+                                            <p class='no-margin be-small'>Cursos</p>
+                                        </li>
+                                    </a>
+                                    <a class="hidden-xs" href="blog.html">
+                                        <li class='inline-block'>
+                                            <i class="icon-book"></i>
+                                            <p class='no-margin be-small'>Blog</p>
+                                        </li>
+                                    </a> 
+                                    <a class="hidden-xs" href="talleres.html">
+                                        <li class='inline-block'>
+                                            <i class="icon-file-text2"></i>
+                                            <p class='no-margin be-small'>Talleres</p>
+                                        </li>
+                                    </a> 
+                                    <a class="hidden-xs" href="https://www.paypal.com/paypalme/usoftec" target="_blank">
+                                        <li class='inline-block'>
+                                            <i class="icon-credit-card"></i>
+                                            <p class='no-margin be-small'>Donar</p>
+                                        </li>
+                                    </a>    
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class='relative big-padding big-top-space white-text text-center' style='background-color: #20a264'>
+        <h1 class='text-center title--article bold'>Funciones básicas de Excel para volverse mas productivo</h1>
+    </header>
+    <div class='article-container'>
+        <div class='top-30'>
+            <div class='row middle-xs center-xs text-left small'>
+                <div class='no-padding col-xs-3 col-lg-1'>
+                    <div class='box'>
+                        <div class='circle' style='background:url(img/favicon.png);background-size:cover;background-position:center;width:50px;height:50px;margin:0 auto;'></div>
+                    </div>
+                </div>
+                <div class=' col-xs-5 col-lg-3'>
+                    <div class='box'>
+                        <p class='no-margin bold' style='letter-spacing: 0px;'>Por: James Vásquez
+                            <p class='no-margin grey-text small italic'>
+                                <a target="_blank" class="underline" href="https://www.facebook.com/jamesvasquezg">
+                                    <img height="16" class="almost-transparent" src="img/facebook.png" alt=" " />
+                                </a>
+                                <a target="_blank" class="underline" href="https://www.twitter.com/jamesvasquezg">
+                                    <img height="16" class="almost-transparent" src="img/twitter.png" alt=" " />
+                                </a>
+                            </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <article class='paragraph'>
+            <p>Microsoft Excel es una de las herramientas de software más utilizadas en el mundo empresarial, académico y personal. Es una herramienta de hoja de cálculo que permite organizar, analizar y visualizar datos en una variedad de formatos. Además de las funciones básicas de una hoja de cálculo, Excel también ofrece una amplia gama de herramientas avanzadas que pueden ayudar a mejorar la eficiencia y productividad en el trabajo. En este blog, describiré algunas de las mejores herramientas de Microsoft Excel.
+            </p>
+            <br>
+            <p><img src="https://img.freepik.com/foto-gratis/empresarios-que-trabajan-finanzas-contabilidad-analizan-financi_74952-1399.jpg?w=826&t=st=1676849246~exp=1676849846~hmac=880a148365a1fac888384204065abea6705fe42c9a7e4458b3887e7a60fd0c18" alt="" style="display:block;margin:auto;width:550px;height:100%;" /></p>
+            <br>
+            <br>
+            <h2>1. Tablas dinámicas:</h2>
+            <p>Las tablas dinámicas son una de las herramientas más poderosas de Excel. Permiten analizar grandes conjuntos de datos de manera rápida y sencilla. Con una tabla dinámica, puedes ver fácilmente la relación entre diferentes variables y realizar resúmenes de datos complejos. Además, las tablas dinámicas son totalmente personalizables, lo que te permite ajustar la información a tus necesidades.</p>
+            <h2>2. Fórmulas:</h2>
+            <p>Excel es conocido por su amplia gama de funciones y fórmulas. Las fórmulas son esenciales para cualquier hoja de cálculo, ya que permiten automatizar cálculos y reducir errores. Algunas de las fórmulas más útiles de Excel incluyen SUMA, PROMEDIO, CONTAR, MAX y MIN.</p>
+            <h2>3. Gráficos:</h2>
+            <p>Los gráficos son una herramienta visual útil para representar datos. Excel ofrece una variedad de tipos de gráficos, como gráficos de columnas, de líneas, de áreas, de barras y de pastel. Los gráficos son una excelente manera de mostrar la información de una manera fácil de entender.</p>
+            <h2>4. Buscar y reemplazar:</h2>
+            <p>Excel te permite buscar y reemplazar palabras y caracteres en una hoja de cálculo. Esta herramienta es especialmente útil si necesitas cambiar una palabra o un número en múltiples celdas.</p>
+            <h2>5. Validación de datos:</h2>
+            <p>La validación de datos te permite establecer reglas y restricciones en una hoja de cálculo para asegurarte de que solo se ingresen datos válidos. Por ejemplo, puedes establecer que solo se ingresen números enteros en una celda, o que solo se ingresen fechas en un rango específico.</p>
+            <h2>6. Filtros:</h2>
+            <p>Los filtros te permiten ver y analizar subconjuntos específicos de datos. Puedes filtrar los datos por valores específicos, por fechas o por otros criterios. Los filtros son una forma eficaz de trabajar con grandes conjuntos de datos.</p>
+            <h2>7. Macros:</h2>
+            <p>Las macros son una forma avanzada de automatizar tareas en Excel. Una macro es un conjunto de acciones que puedes grabar y reproducir en una hoja de cálculo. Las macros son especialmente útiles para tareas repetitivas, como formatear datos o realizar cálculos complejos.</p>
+            <p>En conclusión, Microsoft Excel es una herramienta muy poderosa y versátil que puede ayudarte a realizar una amplia variedad de tareas en el trabajo y en la vida personal. Las herramientas que he descrito anteriormente son solo algunas de las mejores herramientas de Excel que te permiten trabajar con datos de manera más eficiente y efectiva. Si aún no lo has hecho, te recomiendo que explores estas herramientas y veas cómo pueden ayudarte a mejorar tu flujo de trabajo.</p>
+    
+        </article>
+        <!-- Scrip para redes sociales-->
+        <div class='big-top-space'>
+            <nav class="share">
+                <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fschooltec.net%2Fblogappsgratuitasparaaprender.html&layout=button&size=large&mobile_iframe=true&width=99&height=28&appId" width="99" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://schooltec.net/blogappsgratuitasparaaprender.html" data-size="large">Tweet</a>
+                <script>
+                    ! function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + '://platform.twitter.com/widgets.js';
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, 'script', 'twitter-wjs');
+                </script>
+            </nav>
+        </div>
+        <br>
+        <div class="fb-comments" data-href="https://schooltec.net" data-width="100%" data-numposts="3"></div>
+    </div>
+    <div class="top-30">
+        <footer class='footer grey darken-4 big-padding white-text'>
+            <div class="row center-xs text-left ">
+                <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                    <div class='box'>
+                        <div class='row center-xs text-left'>
+                            <div class='last-xs first-md col-xs-6 col-sm-12 col-md-3 col-lg-2'>
+                                <div class='box'><img width="150" src="img/usoftec.png" alt="" /></div>
+                            </div>
+                            <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                <div class='box'>
+                                    <p class='uppercase green-flat-text'>Contenido</p>
+                                    <ul>
+                                        <li><a href="cursos.html">Cursos</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="talleres.html">Talleres</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                <div class='box'>
+                                    <p class='uppercase green-flat-text'>Cursos</p>
+                                    <ul>
+                                        <li><a href="ingenieria.html">Ingeniería</a></li>
+                                        <li><a href="ofimatica.html">Ofimática</a></li>
+                                        <li><a href="diseñografico.html">Diseño</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                <div class='box'>
+                                    <p class='uppercase green-flat-text'>Nosotros</p>
+                                    <ul>
+                                        <li><a href="equipo.html">Equipo</a></li>
+                                        <li><a href="contacto.html">Contacto</a></li>
+                                        <li><a href="info.html">Información</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class='social col-xs-6 col-sm-3 col-md-6 col-lg-2'>
+                                <div class='box'>
+                                    <p class='uppercase green-flat-text'>Redes sociales</p>
+                                    <a href="https://twitter.com/Usoftec" target="_blank">
+                                        <img height="25" src="img/twitter.png" alt="twitter" />
+                                    </a>
+                                    <a href="https://www.facebook.com/Usoftec" target="_blank">
+                                        <img height="25" src="img/facebook.png" alt="Facebook"/>
+                                    </a>
+                                    <a href="https://instagram.com/Usoftec" target="_blank">
+                                        <img height="25" src="img/instagram.png" alt="twitter"/>
+                                    </a>
+                                    <a href="https://www.youtube.com/channel/UCZli6TQ7vIYh94IvWfx1n_g" target="_blank">
+                                        <img height="25" src="img/youtube.png" alt="youtube"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
