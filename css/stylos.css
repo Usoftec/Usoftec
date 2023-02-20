@@ -8544,7 +8544,7 @@ html {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: #393935;
+    color: #00a2f5;
 }
 
 @media only screen and (min-width: 0) {
@@ -25449,7 +25449,7 @@ a.custom-grey:hover {
 }
 
 .white-text {
-    color: #fff;
+    color: #00000080;
 }
 
 .white-text-hover:hover {
