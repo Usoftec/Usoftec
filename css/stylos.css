@@ -121,7 +121,17 @@
 }
 
 .index001 {
-    color: #1877f2;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.index002 {
+    color: #4b22f4;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bitter', serif;
@@ -131,7 +141,7 @@
 }
 
 .portadaindex{
-    background: linear-gradient(45deg, rgba(41,146,226,1) 0%, rgba(89,89,242,1) 47%, rgba(0,99,255,1) 100%);
+    background: linear-gradient(45deg, #4b22f4 0%, rgba(89,89,242,1) 47%, #4b22f4 100%);
     
 }
 
