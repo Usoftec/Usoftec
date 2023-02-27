@@ -14,7 +14,7 @@
 .portada__descripsion {
     
     margin-top: -50px; 
-    color: #ebe1e1; 
+    color: #ffffff; 
     font-weight: bold; 
     font-size: 30px; 
     font-family: 'Bitter', serif;
@@ -78,7 +78,7 @@
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
     color: none;
-    border: 2px solid #ffffff;
+    border: 3px solid #3bf864;
 }
 
 .botonschooltec04{
@@ -96,7 +96,7 @@
 .botonschooltec05{
   
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #ffffff;
+    background-color: none;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -8544,7 +8544,7 @@ html {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    color: #00a2f5;
+    color: #6b7583;
 }
 
 @media only screen and (min-width: 0) {
@@ -25083,7 +25083,7 @@ a.custom-grey:hover {
 }
 
 .grey {
-    background-color: #42b72a !important
+    background-color: #3bf864 !important
 }
 
 .grey-hover:hover {
@@ -25563,10 +25563,10 @@ a.custom-grey:hover {
 }
 
 .verano-header {
-    background-image: url("img/portada.gif");
+    background-image: url("img/portada.png");
     background-size: cover;
     background-position: center;
-    height: 80vh
+    height: 90vh
     
 }
 
