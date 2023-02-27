@@ -78,7 +78,7 @@
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
     color: none;
-    border: 3px solid #3bf864;
+    border: 3px solid #ffffff;
 }
 
 .botonschooltec04{
@@ -122,6 +122,16 @@
 
 .index001 {
     color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.index005 {
+    color: #4b22f4;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Bitter', serif;
