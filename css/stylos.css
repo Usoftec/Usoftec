@@ -59,14 +59,14 @@
 
 .botonschooltec02{
     padding: 15px; /*espacio alrededor texto*/
-    background-color: #1877f2;
+    background-color: #4b22f4;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     border-radius: 12px; /*bordes redondos*/
     font-size: 15px;
     color:none;
-    border: 1px solid #1877f2;
+    border: 1px solid #4b22f4;
 }
 
 .botonschooltec03{
@@ -151,8 +151,7 @@
 }
 
 .portadaindex{
-    background: linear-gradient(180deg, #2d2db0 -65%, #2c8cf4 110%);
-    
+    background-image: linear-gradient(to top, #92aefd 0%, #5670ce 100%);
 }
 
 
@@ -9210,7 +9209,7 @@ footer.page-footer .footer-copyright {
 .tabs {
     position: relative;
     height: 60px;
-    background-color: #121f3d;
+    background-color: #dddddd;
     margin: 0 auto;
     border-color: #0059bc;
     width: 100%;
@@ -9254,7 +9253,7 @@ footer.page-footer .footer-copyright {
     position: absolute;
     bottom: 0;
     height: 5px;
-    background-color: #121f3d;
+    background-color: #dddddd;
     will-change: left, right
 }
 
@@ -18754,7 +18753,7 @@ a.custom-light-blue:hover {
 }
 
 .green-flat-text {
-    color: #1877f2 !important
+    color: #4b22f4 !important
 }
 
 .green-flat-text-hover {
@@ -20914,7 +20913,7 @@ a.custom-grey:hover {
 
 .blue.darken-2 {
     
-    background-image: linear-gradient( 86deg, rgb(18, 36, 92) 0%, rgb(4, 46, 80) 49%, rgb(4, 52, 87) 100%);
+    background-image: linear-gradient( 86deg, #f1f1f1 0%, #f1f1f1 49%, #f1f1f1 100%);
 }
 
 
@@ -25240,7 +25239,7 @@ a.custom-grey:hover {
 }
 
 .new-black-text.text-lighten-3 {
-    color: #1877f2 !important
+    color: #4b22f4 !important
 }
 
 .new-black-text-hover.text-lighten-3 {
@@ -28239,7 +28238,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #1877f2;
+    background: #4b22f4;
     position: relative
 }
 
@@ -28250,7 +28249,7 @@ table.schedule .item {
     width: 30px;
     border-radius: 2.85714px;
     transition: 0.3s;
-    background: #1877f2;
+    background: #4b22f4;
     content: '';
     position: absolute;
     left: 0;
